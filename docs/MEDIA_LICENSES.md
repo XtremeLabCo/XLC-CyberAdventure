@@ -52,7 +52,7 @@ The 14 pairs of the "AI or Real?" game come from Wikimedia Commons. Images from 
 
 ## Sound
 
-- `assets/sounds/main-theme.mp3`, `assets/sounds/game-theme.mp3`: **Brute Force (loop)** by Vitalezzz, OpenGameArt, CC0. Source: https://opengameart.org/content/brute-force
+- `assets/sounds/main-theme.mp3` (used on the home page and in games): **Brute Force (loop)** by Vitalezzz, OpenGameArt, CC0. Source: https://opengameart.org/content/brute-force
 
 ## Other
 

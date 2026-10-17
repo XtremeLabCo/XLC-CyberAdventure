@@ -151,8 +151,11 @@ function handle_admin(string $path,string $method):void {
                 $text=trim((string)($_POST['site_notice']??''));
                 if(strlen($text)>450)throw new UserException('The announcement is too long.',400);
                 $open=isset($_POST['registration_open'])?'1':'0';
-                $q=db()->prepare('UPDATE settings SET value=? WHERE `key`=?');
-                $q->execute([$text,'site_notice']);$q->execute([$open,'registration_open']);
+                $org=trim(strip_tags((string)($_POST['organization_name']??'')));
+                if(mb_strlen($org)>80)throw new UserException('The organization name can be at most 80 characters.',400);
+                // Upsert: installs created before this setting existed have no row for it yet.
+                $q=db()->prepare('INSERT INTO settings (`key`,value) VALUES (?,?) ON DUPLICATE KEY UPDATE value=VALUES(value)');
+                $q->execute(['site_notice',$text]);$q->execute(['registration_open',$open]);$q->execute(['organization_name',$org]);
                 write_audit((int)$a['id'],'general_settings');
             }
             flash('Settings saved.','success');go('/admin/settings');

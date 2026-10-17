@@ -9,7 +9,7 @@ function conf(): array {
         $path = PROJECT_ROOT . '/config/local.php';
         $config = is_file($path) ? require $path : (require PROJECT_ROOT . '/config/local.example.php');
         // Allows a controlled test database choice only from the server/CLI environment.
-        if (($testDb=getenv('SIBER_MACERA_DB_NAME'))!==false && preg_match('/^[a-zA-Z0-9_]{1,64}$/',$testDb)) $config['db_name']=$testDb;
+        if (($testDb=getenv('CYBER_ADVENTURE_DB_NAME'))!==false && preg_match('/^[a-zA-Z0-9_]{1,64}$/',$testDb)) $config['db_name']=$testDb;
     }
     return $config;
 }

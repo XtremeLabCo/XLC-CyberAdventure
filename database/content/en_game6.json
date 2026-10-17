@@ -1,0 +1,1166 @@
+[
+ {
+  "key": "g6_01",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "all",
+  "title": "Knowledge Arena 3",
+  "prompt": "You are done on a shared computer. What now?",
+  "explanation": "Always sign out on shared devices.",
+  "public": {
+   "category": "Privacy",
+   "options": [
+    {
+     "id": "opt0",
+     "text": "Leave the browser open"
+    },
+    {
+     "id": "opt1",
+     "text": "Sign out of your account"
+    },
+    {
+     "id": "opt2",
+     "text": "Save your password"
+    },
+    {
+     "id": "opt3",
+     "text": "Share the session"
+    }
+   ]
+  },
+  "answer": "opt1"
+ },
+ {
+  "key": "g6_02",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "all",
+  "title": "Knowledge Arena 6",
+  "prompt": "You found a USB stick you don't know. What do you do?",
+  "explanation": "Unknown USB sticks can carry risks.",
+  "public": {
+   "category": "Account Security",
+   "options": [
+    {
+     "id": "opt0",
+     "text": "Plug it into the computer"
+    },
+    {
+     "id": "opt1",
+     "text": "Give it to a friend to check"
+    },
+    {
+     "id": "opt2",
+     "text": "Don't plug it in; tell a staff member"
+    },
+    {
+     "id": "opt3",
+     "text": "Format it and use it"
+    }
+   ]
+  },
+  "answer": "opt2"
+ },
+ {
+  "key": "g6_03",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "14-18,19-25,26-30,31-40,41-49,50+",
+  "title": "Knowledge Arena 9",
+  "prompt": "Which is true about AI-generated images?",
+  "explanation": "Checking where an image came from is often more reliable than studying how it looks.",
+  "public": {
+   "category": "Web Security",
+   "options": [
+    {
+     "id": "opt0",
+     "text": "You can always tell"
+    },
+    {
+     "id": "opt1",
+     "text": "They always have mistakes"
+    },
+    {
+     "id": "opt2",
+     "text": "They can always be told apart from photos"
+    },
+    {
+     "id": "opt3",
+     "text": "Just looking at the image may not be enough"
+    }
+   ]
+  },
+  "answer": "opt3"
+ },
+ {
+  "key": "g6_04",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "all",
+  "title": "Knowledge Arena 12",
+  "prompt": "If a website uses HTTPS...",
+  "explanation": "HTTPS alone does not guarantee that a website is trustworthy.",
+  "public": {
+   "category": "Web Security",
+   "options": [
+    {
+     "id": "opt0",
+     "text": "It is definitely trustworthy"
+    },
+    {
+     "id": "opt1",
+     "text": "There can never be a scam"
+    },
+    {
+     "id": "opt2",
+     "text": "The connection may be encrypted, but the site still needs checking"
+    },
+    {
+     "id": "opt3",
+     "text": "You can share any information"
+    }
+   ]
+  },
+  "answer": "opt2"
+ },
+ {
+  "key": "g6_05",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "all",
+  "title": "Knowledge Arena 15",
+  "prompt": "What can you do if you see cyberbullying?",
+  "explanation": "Reporting safely and getting support matter.",
+  "public": {
+   "category": "Privacy",
+   "options": [
+    {
+     "id": "opt0",
+     "text": "Join in"
+    },
+    {
+     "id": "opt1",
+     "text": "You have to ignore it"
+    },
+    {
+     "id": "opt2",
+     "text": "Spread it to everyone"
+    },
+    {
+     "id": "opt3",
+     "text": "Ask a trusted adult or a support service for help"
+    }
+   ]
+  },
+  "answer": "opt3"
+ },
+ {
+  "key": "g6_06",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "all",
+  "title": "Knowledge Arena 18",
+  "prompt": "Why should you use a screen lock?",
+  "explanation": "A lock screen makes it harder for someone to use your device without permission.",
+  "public": {
+   "category": "Account Security",
+   "options": [
+    {
+     "id": "opt0",
+     "text": "For decoration"
+    },
+    {
+     "id": "opt1",
+     "text": "For better photos"
+    },
+    {
+     "id": "opt2",
+     "text": "To limit access by others without permission"
+    },
+    {
+     "id": "opt3",
+     "text": "For Wi-Fi"
+    }
+   ]
+  },
+  "answer": "opt2"
+ },
+ {
+  "key": "g6_07",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "14-18,19-25,26-30,31-40,41-49,50+",
+  "title": "Knowledge Arena 21",
+  "prompt": "What is a digital footprint?",
+  "explanation": "What we do online can leave all kinds of information behind.",
+  "public": {
+   "category": "Web Security",
+   "options": [
+    {
+     "id": "opt0",
+     "text": "The traces of information and activity you leave online"
+    },
+    {
+     "id": "opt1",
+     "text": "Your shoe size"
+    },
+    {
+     "id": "opt2",
+     "text": "The colour of your IP address"
+    },
+    {
+     "id": "opt3",
+     "text": "Your computer's brand"
+    }
+   ]
+  },
+  "answer": "opt0"
+ },
+ {
+  "key": "g6_08",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "all",
+  "title": "Knowledge Arena 24",
+  "prompt": "What does a lookalike-domain (homograph) attack use?",
+  "explanation": "Attackers can use similar-looking letters from other alphabets to make web addresses that look like the real one. Read the address carefully.",
+  "public": {
+   "category": "Scams",
+   "options": [
+    {
+     "id": "opt0",
+     "text": "Similar-looking characters to build a fake address"
+    },
+    {
+     "id": "opt1",
+     "text": "Making Wi-Fi faster"
+    },
+    {
+     "id": "opt2",
+     "text": "File compression"
+    },
+    {
+     "id": "opt3",
+     "text": "Screen brightness"
+    }
+   ]
+  },
+  "answer": "opt0"
+ },
+ {
+  "key": "g6_09",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "all",
+  "title": "Knowledge Arena 27",
+  "prompt": "Why should app updates come from the official store or the maker?",
+  "explanation": "Instead of a random link in an update message, use your device settings, the official store or the maker's website.",
+  "public": {
+   "category": "Privacy",
+   "options": [
+    {
+     "id": "opt0",
+     "text": "So the file is more colourful"
+    },
+    {
+     "id": "opt1",
+     "text": "To lower the risk of malware disguised as an update"
+    },
+    {
+     "id": "opt2",
+     "text": "To make your password shorter"
+    },
+    {
+     "id": "opt3",
+     "text": "To see ads"
+    }
+   ]
+  },
+  "answer": "opt1"
+ },
+ {
+  "key": "g6_10",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "all",
+  "title": "Knowledge Arena 30",
+  "prompt": "Which is true about a passkey?",
+  "explanation": "A passkey's secret key never leaves your device, and it only works on the real website it was made for.",
+  "public": {
+   "category": "Account Security",
+   "options": [
+    {
+     "id": "opt0",
+     "text": "It is the same text password on every site"
+    },
+    {
+     "id": "opt1",
+     "text": "It uses a key on your device tied to the real website, so it can resist phishing better"
+    },
+    {
+     "id": "opt2",
+     "text": "It always works through SMS"
+    },
+    {
+     "id": "opt3",
+     "text": "It should be shared with friends"
+    }
+   ]
+  },
+  "answer": "opt1"
+ },
+ {
+  "key": "g6_11",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "14-18,19-25,26-30,31-40,41-49,50+",
+  "title": "Knowledge Arena 33",
+  "prompt": "A file is named “invoice.pdf.exe”. What should you think?",
+  "explanation": "Keep file extensions visible and don't open unexpected program files. Check with the sender another way.",
+  "public": {
+   "category": "Web Security",
+   "options": [
+    {
+     "id": "opt0",
+     "text": "That it is just a PDF"
+    },
+    {
+     "id": "opt1",
+     "text": "That the double extension may hide a program file"
+    },
+    {
+     "id": "opt2",
+     "text": "That it is definitely safe"
+    },
+    {
+     "id": "opt3",
+     "text": "That it needs to be printed"
+    }
+   ]
+  },
+  "answer": "opt1"
+ },
+ {
+  "key": "g6_12",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "all",
+  "title": "Knowledge Arena 36",
+  "prompt": "What does the principle of least privilege mean?",
+  "explanation": "Limiting access to what a task needs reduces the damage even if an account is taken over.",
+  "public": {
+   "category": "Workplace Security",
+   "options": [
+    {
+     "id": "opt0",
+     "text": "Giving everyone admin rights"
+    },
+    {
+     "id": "opt1",
+     "text": "Giving people and apps only the access they need"
+    },
+    {
+     "id": "opt2",
+     "text": "Making all files public"
+    },
+    {
+     "id": "opt3",
+     "text": "Sharing passwords"
+    }
+   ]
+  },
+  "answer": "opt1"
+ },
+ {
+  "key": "g6_13",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "14-18",
+  "title": "AI output · 14",
+  "prompt": "An AI tool gives you wrong information that sounds certain. What should you do?",
+  "explanation": "AI tools can sound confident and still give wrong information.",
+  "public": {
+   "category": "AI",
+   "options": [
+    {
+     "id": "s1",
+     "text": "Share it without checking"
+    },
+    {
+     "id": "s2",
+     "text": "Check it with independent, reliable sources"
+    },
+    {
+     "id": "s3",
+     "text": "Accept it as true"
+    }
+   ]
+  },
+  "answer": "s2"
+ },
+ {
+  "key": "g6_14",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "19-25,26-30,31-40,41-49,50+",
+  "title": "Cloud sharing · 16",
+  "prompt": "A confidential file will be shared in the cloud. Which setting is best?",
+  "explanation": "Apply the principle of least privilege to file sharing too.",
+  "public": {
+   "category": "Privacy",
+   "options": [
+    {
+     "id": "s2",
+     "text": "Anyone can access it"
+    },
+    {
+     "id": "s3",
+     "text": "Visible to search engines"
+    },
+    {
+     "id": "s1",
+     "text": "Access only for the people who need it"
+    }
+   ]
+  },
+  "answer": "s1"
+ },
+ {
+  "key": "g6_15",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "19-25,26-30,31-40,41-49,50+",
+  "title": "Reporting an attack · 17",
+  "prompt": "You got a suspicious email at work. What should you do?",
+  "explanation": "Suspicious cases should be passed on through your organisation's incident reporting process.",
+  "public": {
+   "category": "Workplace Security",
+   "options": [
+    {
+     "id": "s2",
+     "text": "Report it to the security team through the official channel"
+    },
+    {
+     "id": "s1",
+     "text": "Open the attachment to test it"
+    },
+    {
+     "id": "s3",
+     "text": "Forward it to everyone"
+    }
+   ]
+  },
+  "answer": "s2"
+ },
+ {
+  "key": "g6_16",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "50+",
+  "title": "Family photo · 20",
+  "prompt": "Your home address and your grandchild's school are visible in a photo. Which choice is safer?",
+  "explanation": "Details in the background of a photo can be personal data too.",
+  "public": {
+   "category": "Privacy",
+   "options": [
+    {
+     "id": "s2",
+     "text": "Hide the sensitive details and limit who can see it"
+    },
+    {
+     "id": "s3",
+     "text": "Make the location tag public"
+    },
+    {
+     "id": "s1",
+     "text": "Write the full address in the caption"
+    }
+   ]
+  },
+  "answer": "s2"
+ },
+ {
+  "key": "g6_17",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "0-13",
+  "title": "You won a tablet alert · Pop-up",
+  "prompt": "While playing a game, a window pops up: “Congratulations, you won a tablet! Type your name and address.” What do you do?",
+  "explanation": "You can't win a contest you never entered. These windows are made to get your details or trick your family into paying. Close it without typing anything and tell your family or teacher.",
+  "public": {
+   "category": "Scams",
+   "options": [
+    {
+     "id": "s1",
+     "text": "I type my address. Maybe I really won."
+    },
+    {
+     "id": "s2",
+     "text": "I close the window, type nothing and show a grown-up."
+    },
+    {
+     "id": "s3",
+     "text": "I send it to my friends so they can win too."
+    },
+    {
+     "id": "s4",
+     "text": "I type only my name first and give my address later."
+    }
+   ]
+  },
+  "answer": "s2"
+ },
+ {
+  "key": "g6_18",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "0-13",
+  "title": "Game update · Official store",
+  "prompt": "Your tablet's app store says there is a new update for your favourite game. Which is right?",
+  "explanation": "Updates from the official store fix bugs and security holes that bad people could use. Updating is the right, safe step; if you're not sure, ask a grown-up and install it together.",
+  "public": {
+   "category": "Updates & Backups",
+   "options": [
+    {
+     "id": "s1",
+     "text": "Updates break the game, so I should never update."
+    },
+    {
+     "id": "s2",
+     "text": "I should download the update separately from a website."
+    },
+    {
+     "id": "s3",
+     "text": "Installing the store update is good; it fixes bugs and security holes."
+    },
+    {
+     "id": "s4",
+     "text": "I should only update if the game gets slow."
+    }
+   ]
+  },
+  "answer": "s3"
+ },
+ {
+  "key": "g6_19",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "0-13",
+  "title": "School finishing time · Game chat",
+  "prompt": "Someone you just met in a game chat asks which school you go to and what time it finishes. What do you do?",
+  "explanation": "Your school's name and finishing time make it easier to find you in real life. Don't give them to someone you met online; if they keep asking, block them and tell a grown-up.",
+  "public": {
+   "category": "Privacy",
+   "options": [
+    {
+     "id": "s1",
+     "text": "I don't tell them. I leave the chat and tell a grown-up I trust."
+    },
+    {
+     "id": "s2",
+     "text": "I only tell them the school's name, not the time."
+    },
+    {
+     "id": "s3",
+     "text": "If they tell me their school, I'll tell them mine."
+    },
+    {
+     "id": "s4",
+     "text": "I tell them in a private message, where nobody else can see."
+    }
+   ]
+  },
+  "answer": "s1"
+ },
+ {
+  "key": "g6_20",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "0-13",
+  "title": "Colouring game wants the microphone · Permissions",
+  "prompt": "A colouring game you just downloaded asks to use your microphone when it opens. What is the best choice?",
+  "explanation": "A colouring game doesn't need a microphone to work. Not giving extra permissions stops the app from listening to you; most games work fine without it.",
+  "public": {
+   "category": "Mobile Security",
+   "options": [
+    {
+     "id": "s1",
+     "text": "I allow it, because I think the game won't open otherwise."
+    },
+    {
+     "id": "s2",
+     "text": "I allow both the microphone and the camera so it stops asking."
+    },
+    {
+     "id": "s3",
+     "text": "I delete the game and download another one with the same name from a website."
+    },
+    {
+     "id": "s4",
+     "text": "I tap “Don't allow”; if I don't know why the game wants it, I ask a grown-up."
+    }
+   ]
+  },
+  "answer": "s4"
+ },
+ {
+  "key": "g6_21",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "14-18",
+  "title": "Flashlight app wants contacts · Permissions",
+  "prompt": "A flashlight app you downloaded wants access to your contacts, text messages and location. What is the smartest step?",
+  "explanation": "A flashlight doesn't need contacts, texts or location; these requests may be for collecting data or reading SMS verification codes. Data can be taken in the first minute, so remove the app and use your phone's built-in flashlight.",
+  "public": {
+   "category": "Mobile Security",
+   "options": [
+    {
+     "id": "s1",
+     "text": "I allow everything; it's in the app store, so it's safe."
+    },
+    {
+     "id": "s2",
+     "text": "I allow only location and deny contacts and texts."
+    },
+    {
+     "id": "s3",
+     "text": "I deny the permissions, delete the app and use my phone's own flashlight."
+    },
+    {
+     "id": "s4",
+     "text": "I allow it and take the permissions back in settings a few days later."
+    }
+   ]
+  },
+  "answer": "s3"
+ },
+ {
+  "key": "g6_22",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "14-18",
+  "title": "Getting ready for account recovery · Social media",
+  "prompt": "If you lose access to your social media account, what helps most to get it back?",
+  "explanation": "A recovery email, phone number and backup codes are the fastest way to prove the account is yours. Keeping them up to date now makes getting a hacked account back much easier. Never share backup codes.",
+  "public": {
+   "category": "Account Security",
+   "options": [
+    {
+     "id": "s1",
+     "text": "Giving my password to my best friend so they can recover it."
+    },
+    {
+     "id": "s2",
+     "text": "Adding no recovery details at all, so nobody can take over the account."
+    },
+    {
+     "id": "s3",
+     "text": "Putting my birthday and school on my profile so the platform recognises me."
+    },
+    {
+     "id": "s4",
+     "text": "Adding an up-to-date recovery email and phone, and keeping backup codes somewhere safe."
+    }
+   ]
+  },
+  "answer": "s4"
+ },
+ {
+  "key": "g6_23",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "19-25,26-30,31-40,41-49,50+",
+  "title": "How often to change passwords · Current guidance",
+  "prompt": "According to current password security guidance, which is true?",
+  "explanation": "Current guidance does not recommend forcing password changes on a schedule; it leads to small, guessable changes. Change a password if it leaked or may be stolen. Length matters more than complexity rules, and a different password for each account stops one leak from spreading.",
+  "public": {
+   "category": "Account Security",
+   "options": [
+    {
+     "id": "s1",
+     "text": "Passwords must be changed every 30 days, even with no sign of a leak."
+    },
+    {
+     "id": "s2",
+     "text": "A short password with capitals, numbers and symbols is always stronger than a long one."
+    },
+    {
+     "id": "s3",
+     "text": "A long password that is unique to each account is key; forced regular changes are not needed unless you suspect it was stolen."
+    },
+    {
+     "id": "s4",
+     "text": "Using one strong password on all accounts is recommended because it is easier to remember."
+    }
+   ]
+  },
+  "answer": "s3"
+ },
+ {
+  "key": "g6_24",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 3,
+  "age_scope": "19-25,26-30,31-40,41-49,50+",
+  "title": "Customer spreadsheet and chatbot · Data",
+  "prompt": "To speed up a report, you want to paste a spreadsheet of customer names and phone numbers into a public AI chatbot. What is the right approach?",
+  "explanation": "Data typed into public AI tools may be stored on the provider's servers and, depending on settings, used to train models. That can mean sharing personal data without permission. Use the tool your organisation approved and remove personal details you don't need.",
+  "public": {
+   "category": "AI",
+   "options": [
+    {
+     "id": "s1",
+     "text": "I only use the tool my organisation approved and remove or anonymise the personal data."
+    },
+    {
+     "id": "s2",
+     "text": "It's fine if I delete the chat history when I'm done."
+    },
+    {
+     "id": "s3",
+     "text": "So many people use the tool that it must store the data safely."
+    },
+    {
+     "id": "s4",
+     "text": "If I paste the spreadsheet in small pieces, it doesn't count as sharing data."
+    }
+   ]
+  },
+  "answer": "s1"
+ },
+ {
+  "key": "g6_25",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 4,
+  "age_scope": "19-25,26-30,31-40,41-49,50+",
+  "title": "App permissions · 18",
+  "prompt": "A new app wants access to all your files. What should be done?",
+  "explanation": "App permissions should match what the app actually does.",
+  "public": {
+   "category": "App Security",
+   "options": [
+    {
+     "id": "s2",
+     "text": "Allow it right away"
+    },
+    {
+     "id": "s3",
+     "text": "Check whether the permission is needed and who made the app"
+    },
+    {
+     "id": "s1",
+     "text": "Write your password in the comments"
+    }
+   ]
+  },
+  "answer": "s3"
+ },
+ {
+  "key": "g6_26",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 4,
+  "age_scope": "14-18",
+  "title": "Paid scholarship offer · Social media post",
+  "prompt": "An account says: “Guaranteed scholarship: pay a $10 application fee, send your password for the official government portal, places fill up today.” Which assessment is right?",
+  "explanation": "Real scholarship providers never ask for your government portal password or promise approval for a fee. A payment request, a login request and “fills up today” pressure together mean it is fake. Apply on the provider's official website, which you find yourself.",
+  "public": {
+   "category": "Scams",
+   "options": [
+    {
+     "id": "s1",
+     "text": "A fee, a password request and urgency together are signs of a scam; I check the scholarship on the provider's official website."
+    },
+    {
+     "id": "s2",
+     "text": "The fee is small, so the risk is low; just not giving the password is enough."
+    },
+    {
+     "id": "s3",
+     "text": "It's safe if I send a screenshot of the government portal instead of the password."
+    },
+    {
+     "id": "s4",
+     "text": "If the account sharing it has lots of followers, it can be trusted."
+    }
+   ]
+  },
+  "answer": "s1"
+ },
+ {
+  "key": "g6_27",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 4,
+  "age_scope": "14-18",
+  "title": "Two networks with the same name · Fake hotspot",
+  "prompt": "At a cafe you see two open Wi-Fi networks called “Cafe_Guest”; one has a stronger signal. What is the best approach?",
+  "explanation": "Attackers can set up a fake hotspot with the same name as the real one, and it may have a stronger signal. Ask staff which network is real. HTTPS encrypts traffic but won't protect what you type into a fake login page. Mobile data is safer for sensitive tasks.",
+  "public": {
+   "category": "Network Security",
+   "options": [
+    {
+     "id": "s1",
+     "text": "I join the stronger one; fake networks usually have a weak signal."
+    },
+    {
+     "id": "s2",
+     "text": "I ask staff which network is real, and use mobile data if I need to log in to my accounts."
+    },
+    {
+     "id": "s3",
+     "text": "I try both and use whichever is faster."
+    },
+    {
+     "id": "s4",
+     "text": "It's fine even without a Wi-Fi password, because all websites use HTTPS."
+    }
+   ]
+  },
+  "answer": "s2"
+ },
+ {
+  "key": "g6_28",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 4,
+  "age_scope": "14-18",
+  "title": "Fake account in your name · Reporting",
+  "prompt": "Someone made a fake account with your name and photo and is posting embarrassing things. What is the best way to handle it?",
+  "explanation": "Evidence is needed for reporting to the platform and for any legal steps; after blocking, the posts can be harder to reach. Platforms review impersonation reports separately. Spreading the content makes things worse; an adult's support helps.",
+  "public": {
+   "category": "Cyberbullying",
+   "options": [
+    {
+     "id": "s1",
+     "text": "I block the account right away before saving evidence, so I don't see the posts."
+    },
+    {
+     "id": "s2",
+     "text": "I share the posts with my friends so everyone knows the account is fake."
+    },
+    {
+     "id": "s3",
+     "text": "I close my own account; that makes the fake account useless."
+    },
+    {
+     "id": "s4",
+     "text": "I save the links and screenshots, report it to the platform as impersonation, and tell my family or school counsellor."
+    }
+   ]
+  },
+  "answer": "s4"
+ },
+ {
+  "key": "g6_29",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 4,
+  "age_scope": "19-25,26-30,31-40,41-49,50+",
+  "title": "Password typed into a phishing page · First steps",
+  "prompt": "You clicked a link in a work email and typed your work password into the page, then got suspicious. What should you do first?",
+  "explanation": "Minutes count: the security team can end open sessions and remove the same email from other inboxes. Disconnecting from the network limits any malware; changing the password from a clean device stops the new one being stolen too. Waiting or reopening the link adds risk.",
+  "public": {
+   "category": "Incident Response",
+   "options": [
+    {
+     "id": "s1",
+     "text": "I just change my password from the same computer without telling anyone."
+    },
+    {
+     "id": "s2",
+     "text": "I shut down the computer and tell the IT team the next morning."
+    },
+    {
+     "id": "s3",
+     "text": "I open the link again to check whether the page is really fake."
+    },
+    {
+     "id": "s4",
+     "text": "I report it to the IT/security team right away, disconnect the device from the network and change my password from another safe device."
+    }
+   ]
+  },
+  "answer": "s4"
+ },
+ {
+  "key": "g6_30",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 4,
+  "age_scope": "19-25,26-30,31-40,41-49,50+",
+  "title": "Phone suddenly lost signal · SIM swap",
+  "prompt": "Your phone suddenly shows “No service”, then your email gets “password reset code sent” alerts. What should you do?",
+  "explanation": "Losing signal at the same time as password reset attempts can mean your number was moved to another SIM card with a fake ID. Calling your mobile carrier to freeze the line stops SMS codes going to the attacker. Later, use an authenticator app or passkey instead of SMS, and ask your carrier for extra SIM checks.",
+  "public": {
+   "category": "Mobile Security",
+   "options": [
+    {
+     "id": "s1",
+     "text": "I restart the phone and wait a few hours for the network to come back."
+    },
+    {
+     "id": "s2",
+     "text": "From another phone I immediately call my mobile carrier and my bank, ask whether my number was moved, and change my passwords."
+    },
+    {
+     "id": "s3",
+     "text": "I click the reset link in the email to cancel the request there."
+    },
+    {
+     "id": "s4",
+     "text": "I take the SIM card out and put it back in; the problem is probably the card."
+    }
+   ]
+  },
+  "answer": "s2"
+ },
+ {
+  "key": "g6_31",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 4,
+  "age_scope": "19-25,26-30,31-40,41-49,50+",
+  "title": "Coupon extension permissions · Browser",
+  "prompt": "While installing, a discount coupon browser extension asks for permission to “Read and change all your data on all websites”. What does this mean?",
+  "explanation": "This broad permission lets the extension read and change every page you open, including online banking and email. Extensions can change owners and get harmful updates later. Don't install ones you don't need, or limit site access to when you click it or to specific sites.",
+  "public": {
+   "category": "Web Security",
+   "options": [
+    {
+     "id": "s1",
+     "text": "It can see the content and form entries on every page you open, and change the pages."
+    },
+    {
+     "id": "s2",
+     "text": "It can only see prices on shopping sites; it can't reach other pages."
+    },
+    {
+     "id": "s3",
+     "text": "The extension comes from the official store, so this permission is just a technical warning."
+    },
+    {
+     "id": "s4",
+     "text": "This permission only applies on the first day the extension is installed."
+    }
+   ]
+  },
+  "answer": "s1"
+ },
+ {
+  "key": "g6_32",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 4,
+  "age_scope": "50+",
+  "title": "Panicked call from a grandchild · Voice cloning",
+  "prompt": "Someone who sounds like your grandchild calls: “I had an accident, I need money now, don't tell Mom.” The voice is exactly theirs. What is the best step?",
+  "explanation": "AI can copy a person's voice from a few seconds of social media video. “Don't tell anyone” and rushing you are typical scam signs. A birthday is not proof, as it can be found online. Call back on a number you know; a family code word works well.",
+  "public": {
+   "category": "Scams",
+   "options": [
+    {
+     "id": "s1",
+     "text": "If it's their voice, it's definitely them; I send the money without wasting time."
+    },
+    {
+     "id": "s2",
+     "text": "I ask for their birthday; if they know it, it really is my grandchild."
+    },
+    {
+     "id": "s3",
+     "text": "I hang up and call my grandchild or their parents on the saved number, and ask for our family code word."
+    },
+    {
+     "id": "s4",
+     "text": "I send a gift card code instead of money; that's safer."
+    }
+   ]
+  },
+  "answer": "s3"
+ },
+ {
+  "key": "g6_33",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 4,
+  "age_scope": "50+",
+  "title": "Bonus payment message · Pension",
+  "prompt": "An SMS from your bank's usual sender name: “Your pension bonus payment has been deposited into your account.” There is no link and nothing is asked of you. What is enough to do?",
+  "explanation": "An information message with no link, asking for no details, payment or action, about something expected, is not risky on its own. To check, use the number on the back of your card or your bank's app, not the number in the message. Your bank never asks for your password or SMS code.",
+  "public": {
+   "category": "Scams",
+   "options": [
+    {
+     "id": "s1",
+     "text": "Call the number that sent the message to confirm the amount and verify your card details."
+    },
+    {
+     "id": "s2",
+     "text": "It's an information message; if you want, check your account yourself in the bank's app or at a branch."
+    },
+    {
+     "id": "s3",
+     "text": "Reply “CONFIRM” to the bank so the payment can be completed."
+    },
+    {
+     "id": "s4",
+     "text": "Every message from a bank is fake; you should close your account right away."
+    }
+   ]
+  },
+  "answer": "s2"
+ },
+ {
+  "key": "g6_34",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 5,
+  "age_scope": "19-25,26-30,31-40,41-49,50+",
+  "title": "Man-in-the-middle phishing · Passkey vs app codes",
+  "prompt": "An attacker uses a phishing site that sits in the middle and passes everything on to the real login page. Why is a passkey better here than a one-time code from an authenticator app?",
+  "explanation": "A passkey is tied to the website address it was created for; the browser won't sign in on a fake address, so phishing fails. A one-time code can be typed into the fake page and instantly passed to the real site. A passkey can't protect session cookies if the device already has malware.",
+  "public": {
+   "category": "Account Security",
+   "options": [
+    {
+     "id": "s1",
+     "text": "A passkey is just a longer password, so it's harder to guess."
+    },
+    {
+     "id": "s2",
+     "text": "The one-time code changes every 30 seconds, so it protects as well as a passkey against this attack."
+    },
+    {
+     "id": "s3",
+     "text": "A passkey is tied to the real website and won't work on a fake one; a one-time code can be typed into the fake page and passed on."
+    },
+    {
+     "id": "s4",
+     "text": "A passkey encrypts the session cookie, so it can't be copied even if the device is hacked."
+    }
+   ]
+  },
+  "answer": "s3"
+ },
+ {
+  "key": "g6_35",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 5,
+  "age_scope": "19-25,26-30,31-40,41-49,50+",
+  "title": "Ransomware and backups · Offline copy",
+  "prompt": "Ransomware has encrypted every drive on the network. Which backup setup gives the most reliable recovery?",
+  "explanation": "Always-connected disks, instantly synced folders and copies on the same server are within ransomware's reach and can be overwritten. An offline copy, or one that can't be changed for a set time, gives a recovery point attackers can't touch. Test restores regularly, or you can't know a backup works.",
+  "public": {
+   "category": "Updates & Backups",
+   "options": [
+    {
+     "id": "s1",
+     "text": "An external disk always connected to the computer that backs up automatically every night."
+    },
+    {
+     "id": "s2",
+     "text": "A cloud folder that syncs files instantly, so changes show up right away."
+    },
+    {
+     "id": "s3",
+     "text": "A daily copy kept in a separate folder on the same file server."
+    },
+    {
+     "id": "s4",
+     "text": "A 3-2-1 backup (3 copies, 2 kinds of storage, 1 off-site) with one copy offline or unchangeable, and tested restores."
+    }
+   ]
+  },
+  "answer": "s4"
+ },
+ {
+  "key": "g6_36",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 5,
+  "age_scope": "19-25,26-30,31-40,41-49,50+",
+  "title": "What Content Credentials prove · C2PA",
+  "prompt": "A news photo has verified Content Credentials (C2PA). What does this show on its own?",
+  "explanation": "C2PA records, in a tamper-proof way, who signed the content and how it was edited; AI generation can be declared there too. It does not guarantee the signer is honest or the scene is real. Metadata can be removed, so missing credentials alone don't prove a fake.",
+  "public": {
+   "category": "AI",
+   "options": [
+    {
+     "id": "s1",
+     "text": "It proves the event in the photo really happened and the content is true."
+    },
+    {
+     "id": "s2",
+     "text": "It shows who signed it and the recorded edit history; it doesn't prove the scene is real."
+    },
+    {
+     "id": "s3",
+     "text": "It proves for certain that the photo was not made with AI."
+    },
+    {
+     "id": "s4",
+     "text": "It proves that photos without credentials are fake."
+    }
+   ]
+  },
+  "answer": "s2"
+ },
+ {
+  "key": "g6_37",
+  "game_id": 6,
+  "kind": "quiz",
+  "difficulty": 5,
+  "age_scope": "19-25,26-30,31-40,41-49,50+",
+  "title": "Patched security hole · Zero-day and n-day",
+  "prompt": "A vendor patched a security hole and announced it is being actively attacked. Why is it risky to wait for next month's planned maintenance?",
+  "explanation": "A zero-day is a hole with no patch yet; once patched it becomes an “n-day”, and attackers can study the patch to build attacks fast. Most real attacks use holes that already have patches, so install patches for actively attacked holes quickly.",
+  "public": {
+   "category": "Updates & Backups",
+   "options": [
+    {
+     "id": "s1",
+     "text": "Once the patch is out, the hole is public; attackers study the patch and quickly target unpatched systems."
+    },
+    {
+     "id": "s2",
+     "text": "There is no risk; once patched it's no longer a zero-day and attackers lose interest."
+    },
+    {
+     "id": "s3",
+     "text": "Only zero-day holes are dangerous; antivirus always blocks known holes."
+    },
+    {
+     "id": "s4",
+     "text": "Patches can slow systems down, so waiting a few months is always safer."
+    }
+   ]
+  },
+  "answer": "s1"
+ }
+]

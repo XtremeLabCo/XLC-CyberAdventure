@@ -1,48 +1,84 @@
 # Cyber Adventure
 
-A PHP + MySQL cyber-awareness platform for XtremeLab.Co × ISTRL with six games, fully in English.
+**Open-source cyber-awareness games for schools, universities and security institutes.**
 
-## Games
+Cyber Adventure is a self-hosted web platform with six short, interactive games that teach people of all ages to recognise online scams and threats. Run it at a school event, in a classroom, at a university open day or as part of an awareness campaign: players register with a nickname, play five-question rounds and compete on a leaderboard, while organisers manage questions and download participation reports.
 
-| Game | What the player does |
+Built by [XtremeLab.Co](https://github.com/XtremeLabCo). Code under the MIT licence, questions and docs under CC BY 4.0 (see [Licences](#licences)).
+
+## The six games
+
+| Game | What players practise |
 |---|---|
-| AI or Real? | Compares two images and picks the AI-generated or the real photo; a source card is shown afterwards. |
-| Phishing Detective | Reads an email, checks the sender, link and attachment with a detective checklist, decides "Fake" or "Trustworthy". |
-| Cyber Threat Hunter | Scans a dark floor plan with a flashlight, inspects evidence tags and flags the single real risk. |
-| Password Hero | Builds an "account fortress" over five decisions; password questions unlock a strength test bench after answering. |
-| Think Before You Share | Sees a post draft (audience and location controls) or a situation card; drafts show a reach simulation afterwards. |
-| Cyber Shield | General cyber-security knowledge quiz. |
+| **AI or Real?** | Compare two images and decide which one is AI-generated (or which is the real photo). The explanation teaches source checking and reverse image search instead of "pixel hunting". |
+| **Phishing Detective** | Read an email, inspect the sender, link and attachment with a detective checklist, and decide whether it is fake or trustworthy. |
+| **Cyber Threat Hunter** | Scan a dark floor plan with a flashlight, inspect evidence tags and flag the one real security risk in an office, café, classroom, hotel room or on a phone. |
+| **Password Hero** | Build an "account fortress" over five decisions about passwords, passkeys and two-step verification. Password questions unlock a strength test bench after answering. |
+| **Think Before You Share** | Decide what to do before posting or when facing a risky situation online. Post drafts let players change the audience and location, then show how far a post can spread. |
+| **Cyber Shield** | A general cyber-security knowledge quiz. |
 
-## Rules built into the platform
+## Who it is for
 
-- Five questions per round, 5 minutes per round, 100 points per game, 600 in total.
-- Each player can enter each game at most **3 times** (expired or unfinished rounds count). The best score goes to the leaderboard. The limit is editable per game in Admin → Games.
-- Questions are chosen by age group: 0–13 gets difficulty 3, 14–18 gets 3–4, 19+ gets 3–5.
-- 188 questions ship with the install: AI or Real? 20, Phishing Detective 32, Cyber Threat Hunter 31, Password Hero 37, Think Before You Share 31, Cyber Shield 37.
-- Players sign in again with their username and a 4-digit code (stored as an HMAC; rate-limited).
-- The registration form tells players that their participation certificate will be sent to their email and suggests fixes for common domain typos (gmial.com → gmail.com). The platform does not send certificates itself; use the email column of the CSV report.
+- **High schools:** awareness weeks, IT or citizenship lessons, parents' evenings. Players choose one of seven age groups when they register; players aged 0–13 only get the easier questions.
+- **Universities and colleges:** freshers' week, open days, student societies.
+- **Security institutes, CERTs and NGOs:** public awareness campaigns, festival stands, staff training.
 
-## Admin
+## Features
 
-- `/admin/login`. Players, games (time, questions per round, entry limit), question bank, reports with CSV export, settings.
-- Question bank: single-question form (image upload for "AI or Real?"), CSV bulk upload with a downloadable sample, and an image library whose paths can be pasted into the CSV.
+- 188 ready-to-use questions with explanations, at difficulty levels 3–5. Each round is matched to the player's age group: 0–13 gets level 3, 14–18 gets levels 3–4 and adults get levels 3–5.
+- Five questions and five minutes per round; up to three entries per game per player (configurable); 100 points per game and a leaderboard per game and age group.
+- Players register with a nickname and come back with a 4-digit code. Real names and emails are never shown on the leaderboard.
+- Admin panel: players, game settings, question bank (single form, image upload and CSV bulk import with a sample file), participation reports with CSV export, and an organization name shown on every page.
+- Mobile-first: tested on 320–375 px phones; keyboard and screen reader friendly; respects "reduced motion".
+- No external services and no tracking. The password strength test runs entirely in the browser.
 
-## Installation
+## Quick start (local)
 
-See `docs/INSTALL.md`. In short:
+Requirements: PHP 8.1+ with `pdo_mysql`, `openssl`, `fileinfo`, `gd`, and MySQL 8.0+ or MariaDB 10.6+.
 
-1. Create a MySQL database and user in cPanel.
-2. Import `database/INSTALL.sql` into the **empty** database with phpMyAdmin.
-3. Upload the project **outside** the web root and point the subdomain's document root to `public/`.
-4. Copy `config/local.example.php` to `config/local.php` and fill in the database details plus two random secrets (at least 32 characters each).
-5. Open `https://your-domain/setup` to create the first admin, then register a test player at `/register`.
+```bash
+# 1. Create a database and import the install file
+mysql -e "CREATE DATABASE cyberadventure CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci"
+mysql cyberadventure < database/INSTALL.sql
 
-Requirements: PHP 8.1+ with `pdo_mysql`, `openssl`, `json`, `session`, `fileinfo`, `gd`; MySQL 8.0+ or MariaDB 10.6+.
+# 2. Configure: set db_name/db_user/db_password and two random secrets of 32+ characters
+cp config/local.example.php config/local.php
 
-## Security notes
+# 3. Run the built-in PHP server
+php -S localhost:8000 -t public public/router.php
+```
 
-- Never move `config/local.php` into `public/` or put it under version control.
-- Do not change `recovery_pepper` after launch; players' 4-digit codes depend on it.
-- `public/assets/media/uploads/` must be writable by the web server; scripts cannot run there (`.htaccess`).
+Open http://localhost:8000/setup, enter your `setup_key` and create the first admin. Then go to http://localhost:8000/register to create a test player.
 
-Media sources and licences: `docs/MEDIA_LICENSES.md`.
+For a real server (cPanel or any Apache host) follow [docs/INSTALL.md](docs/INSTALL.md).
+
+## Using your own questions
+
+The shipped question bank is public, which is normal for an open-source learning tool. **For competitive events, add your own questions** so that players cannot look up the answers:
+
+1. Admin → Question Bank → **Download sample CSV**.
+2. Fill one question per row (the column guide is on the same page), upload the CSV.
+3. Disable or edit the default questions you do not want to use.
+
+Image questions for "AI or Real?" can be uploaded through the image library on the same page. See [CONTRIBUTING.md](CONTRIBUTING.md) if you want to improve the default question bank for everyone.
+
+## Project layout
+
+```
+app/        PHP application (routing helpers, game logic, admin, views)
+public/     web root: index.php, CSS, JS, images, sounds
+config/     local.example.php (copy to local.php; never commit local.php)
+database/   INSTALL.sql, schema_en.sql and the question sources (content/en_game*.json)
+docs/       installation guide, translation guide, media licences
+tests/      build scripts (INSTALL.sql, sample CSV)
+```
+
+## Contributing
+
+Questions, translations, accessibility fixes and new scenes are all welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) first. Please report security issues privately as described in [SECURITY.md](SECURITY.md). Everyone taking part is expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Licences
+
+- **Code:** [MIT](LICENSE).
+- **Questions, explanations and documentation:** [CC BY 4.0](LICENSE-CONTENT.md). You may use and adapt them, including commercially, as long as you credit "Cyber Adventure by XtremeLab.Co".
+- **Images and music:** each file keeps its own licence (public domain, CC0, CC BY or CC BY-SA). See [docs/MEDIA_LICENSES.md](docs/MEDIA_LICENSES.md) and keep the attributions when you redistribute.

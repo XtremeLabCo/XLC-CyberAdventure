@@ -1,0 +1,2296 @@
+[
+    {
+        "key": "g3_01",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Office Mission 3",
+        "prompt": "Which thing in the office needs action?",
+        "explanation": "Lock your screen whenever you step away from your computer.",
+        "public": {
+            "scene": "office",
+            "objects": [
+                {
+                    "id": "chair",
+                    "label": "Chair",
+                    "emoji": "🪑",
+                    "x": 22,
+                    "y": 18
+                },
+                {
+                    "id": "unlocked",
+                    "label": "Unlocked computer left signed in",
+                    "emoji": "💻",
+                    "x": 50,
+                    "y": 25
+                },
+                {
+                    "id": "cup",
+                    "label": "Cup",
+                    "emoji": "🥤",
+                    "x": 76,
+                    "y": 18
+                },
+                {
+                    "id": "folder",
+                    "label": "File folder",
+                    "emoji": "📁",
+                    "x": 32,
+                    "y": 65
+                },
+                {
+                    "id": "plant",
+                    "label": "Plant",
+                    "emoji": "🪴",
+                    "x": 61,
+                    "y": 63
+                }
+            ],
+            "location": "Office",
+            "options": [
+                {
+                    "id": "chair",
+                    "text": "Chair"
+                },
+                {
+                    "id": "unlocked",
+                    "text": "Unlocked computer left signed in"
+                },
+                {
+                    "id": "cup",
+                    "text": "Cup"
+                },
+                {
+                    "id": "folder",
+                    "text": "File folder"
+                },
+                {
+                    "id": "plant",
+                    "text": "Plant"
+                }
+            ]
+        },
+        "answer": "unlocked"
+    },
+    {
+        "key": "g3_02",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Classroom Mission 6",
+        "prompt": "Which item in the classroom is in the wrong place?",
+        "explanation": "Private information should never be left on an open screen or in shared spaces.",
+        "public": {
+            "scene": "class",
+            "objects": [
+                {
+                    "id": "private",
+                    "label": "Private document left open",
+                    "emoji": "📄",
+                    "x": 22,
+                    "y": 18
+                },
+                {
+                    "id": "marker",
+                    "label": "Whiteboard marker",
+                    "emoji": "🖊️",
+                    "x": 50,
+                    "y": 25
+                },
+                {
+                    "id": "board",
+                    "label": "Board",
+                    "emoji": "📋",
+                    "x": 76,
+                    "y": 18
+                },
+                {
+                    "id": "chair",
+                    "label": "Chair",
+                    "emoji": "🪑",
+                    "x": 32,
+                    "y": 65
+                },
+                {
+                    "id": "bag",
+                    "label": "Backpack",
+                    "emoji": "🎒",
+                    "x": 61,
+                    "y": 63
+                }
+            ],
+            "location": "Classroom",
+            "options": [
+                {
+                    "id": "private",
+                    "text": "Private document left open"
+                },
+                {
+                    "id": "marker",
+                    "text": "Whiteboard marker"
+                },
+                {
+                    "id": "board",
+                    "text": "Board"
+                },
+                {
+                    "id": "chair",
+                    "text": "Chair"
+                },
+                {
+                    "id": "bag",
+                    "text": "Backpack"
+                }
+            ]
+        },
+        "answer": "private"
+    },
+    {
+        "key": "g3_03",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Hotel Mission 9",
+        "prompt": "In the hotel lobby, which device should you be careful with?",
+        "explanation": "Think about the risks before plugging your device into a charging port you don't know.",
+        "public": {
+            "scene": "hotel",
+            "objects": [
+                {
+                    "id": "sofa",
+                    "label": "Sofa",
+                    "emoji": "🛋️",
+                    "x": 22,
+                    "y": 18
+                },
+                {
+                    "id": "coffee",
+                    "label": "Coffee",
+                    "emoji": "☕",
+                    "x": 50,
+                    "y": 25
+                },
+                {
+                    "id": "plant",
+                    "label": "Plant",
+                    "emoji": "🌿",
+                    "x": 76,
+                    "y": 18
+                },
+                {
+                    "id": "bag",
+                    "label": "Suitcase",
+                    "emoji": "🧳",
+                    "x": 32,
+                    "y": 65
+                },
+                {
+                    "id": "charger",
+                    "label": "Unknown USB charging port",
+                    "emoji": "🔌",
+                    "x": 61,
+                    "y": 63
+                }
+            ],
+            "location": "Hotel",
+            "options": [
+                {
+                    "id": "sofa",
+                    "text": "Sofa"
+                },
+                {
+                    "id": "coffee",
+                    "text": "Coffee"
+                },
+                {
+                    "id": "plant",
+                    "text": "Plant"
+                },
+                {
+                    "id": "bag",
+                    "text": "Suitcase"
+                },
+                {
+                    "id": "charger",
+                    "text": "Unknown USB charging port"
+                }
+            ]
+        },
+        "answer": "charger"
+    },
+    {
+        "key": "g3_04",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Cafe Mission 12",
+        "prompt": "Which item should you check before paying at the cafe?",
+        "explanation": "Check where the QR code came from and whether the web address it opens is correct.",
+        "public": {
+            "scene": "cafe",
+            "objects": [
+                {
+                    "id": "water",
+                    "label": "Water",
+                    "emoji": "🥛",
+                    "x": 22,
+                    "y": 18
+                },
+                {
+                    "id": "flower",
+                    "label": "Flower",
+                    "emoji": "🌼",
+                    "x": 50,
+                    "y": 25
+                },
+                {
+                    "id": "plate",
+                    "label": "Plate",
+                    "emoji": "🍽️",
+                    "x": 76,
+                    "y": 18
+                },
+                {
+                    "id": "qr",
+                    "label": "QR sticker from an unknown source",
+                    "emoji": "▦",
+                    "x": 32,
+                    "y": 65
+                },
+                {
+                    "id": "menu",
+                    "label": "Menu",
+                    "emoji": "🍽️",
+                    "x": 61,
+                    "y": 63
+                }
+            ],
+            "location": "Cafe",
+            "options": [
+                {
+                    "id": "water",
+                    "text": "Water"
+                },
+                {
+                    "id": "flower",
+                    "text": "Flower"
+                },
+                {
+                    "id": "plate",
+                    "text": "Plate"
+                },
+                {
+                    "id": "qr",
+                    "text": "QR sticker from an unknown source"
+                },
+                {
+                    "id": "menu",
+                    "text": "Menu"
+                }
+            ]
+        },
+        "answer": "qr"
+    },
+    {
+        "key": "g3_05",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Airport Mission 15",
+        "prompt": "While travelling, which connection choice needs extra checking?",
+        "explanation": "Attackers can use network names that look like the official one. Check the network name with staff or on an official sign.",
+        "public": {
+            "scene": "hotel",
+            "objects": [
+                {
+                    "id": "bag",
+                    "label": "Suitcase",
+                    "emoji": "🧳",
+                    "x": 22,
+                    "y": 18
+                },
+                {
+                    "id": "coffee",
+                    "label": "Coffee",
+                    "emoji": "☕",
+                    "x": 50,
+                    "y": 25
+                },
+                {
+                    "id": "evil-twin",
+                    "label": "Copycat Wi-Fi that looks like the official network",
+                    "emoji": "📶",
+                    "x": 76,
+                    "y": 18
+                },
+                {
+                    "id": "gate",
+                    "label": "Gate screen",
+                    "emoji": "🛫",
+                    "x": 32,
+                    "y": 65
+                },
+                {
+                    "id": "seat",
+                    "label": "Seat",
+                    "emoji": "💺",
+                    "x": 61,
+                    "y": 63
+                }
+            ],
+            "location": "Airport",
+            "options": [
+                {
+                    "id": "bag",
+                    "text": "Suitcase"
+                },
+                {
+                    "id": "coffee",
+                    "text": "Coffee"
+                },
+                {
+                    "id": "evil-twin",
+                    "text": "Copycat Wi-Fi that looks like the official network"
+                },
+                {
+                    "id": "gate",
+                    "text": "Gate screen"
+                },
+                {
+                    "id": "seat",
+                    "text": "Seat"
+                }
+            ]
+        },
+        "answer": "evil-twin"
+    },
+    {
+        "key": "g3_06",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Home Mission 18",
+        "prompt": "Which smart home device needs attention?",
+        "explanation": "Internet-connected devices that no longer get updates can be risky. Disconnect it, update it or replace it with a supported product.",
+        "public": {
+            "scene": "home",
+            "objects": [
+                {
+                    "id": "lamp",
+                    "label": "Lamp",
+                    "emoji": "💡",
+                    "x": 22,
+                    "y": 18
+                },
+                {
+                    "id": "iot-old",
+                    "label": "Camera that no longer gets updates",
+                    "emoji": "📹",
+                    "x": 50,
+                    "y": 25
+                },
+                {
+                    "id": "toy",
+                    "label": "Toy",
+                    "emoji": "🧸",
+                    "x": 76,
+                    "y": 18
+                },
+                {
+                    "id": "plant",
+                    "label": "Plant",
+                    "emoji": "🪴",
+                    "x": 32,
+                    "y": 65
+                },
+                {
+                    "id": "book",
+                    "label": "Book",
+                    "emoji": "📚",
+                    "x": 61,
+                    "y": 63
+                }
+            ],
+            "location": "Home",
+            "options": [
+                {
+                    "id": "lamp",
+                    "text": "Lamp"
+                },
+                {
+                    "id": "iot-old",
+                    "text": "Camera that no longer gets updates"
+                },
+                {
+                    "id": "toy",
+                    "text": "Toy"
+                },
+                {
+                    "id": "plant",
+                    "text": "Plant"
+                },
+                {
+                    "id": "book",
+                    "text": "Book"
+                }
+            ]
+        },
+        "answer": "iot-old"
+    },
+    {
+        "key": "g3_07",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "14-18",
+        "title": "Meeting link · 14",
+        "prompt": "There is a security risk on the projector screen in the classroom. Which object should you tap?",
+        "explanation": "Do not share private meeting links publicly.",
+        "public": {
+            "scene": "class",
+            "location": "Classroom",
+            "objects": [
+                {
+                    "id": "p116ae04",
+                    "label": "Board",
+                    "emoji": "📋",
+                    "x": 19,
+                    "y": 19
+                },
+                {
+                    "id": "pf666dcf",
+                    "label": "Private meeting link shared publicly",
+                    "emoji": "🔗",
+                    "x": 47,
+                    "y": 25
+                },
+                {
+                    "id": "p4df0e49",
+                    "label": "Book",
+                    "emoji": "📚",
+                    "x": 73,
+                    "y": 18
+                },
+                {
+                    "id": "p0dc355a",
+                    "label": "Crayon",
+                    "emoji": "🖍️",
+                    "x": 31,
+                    "y": 66
+                },
+                {
+                    "id": "p5ac16ff",
+                    "label": "Clock",
+                    "emoji": "🕰️",
+                    "x": 63,
+                    "y": 62
+                }
+            ],
+            "options": [
+                {
+                    "id": "pf666dcf",
+                    "text": "Private meeting link shared publicly"
+                },
+                {
+                    "id": "p116ae04",
+                    "text": "Board"
+                },
+                {
+                    "id": "p4df0e49",
+                    "text": "Book"
+                },
+                {
+                    "id": "p0dc355a",
+                    "text": "Crayon"
+                },
+                {
+                    "id": "p5ac16ff",
+                    "text": "Clock"
+                }
+            ]
+        },
+        "answer": "pf666dcf"
+    },
+    {
+        "key": "g3_08",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Company backup · 16",
+        "prompt": "There is a security risk on the office desk. Which object should you tap?",
+        "explanation": "Protect backups: limit who can access them and keep them encrypted.",
+        "public": {
+            "scene": "office",
+            "location": "Office",
+            "objects": [
+                {
+                    "id": "pa5bbc7a",
+                    "label": "Plant",
+                    "emoji": "🪴",
+                    "x": 19,
+                    "y": 19
+                },
+                {
+                    "id": "p64d3287",
+                    "label": "Phone stand",
+                    "emoji": "📱",
+                    "x": 47,
+                    "y": 25
+                },
+                {
+                    "id": "p1c040de",
+                    "label": "Unencrypted backup drive with sensitive data",
+                    "emoji": "💽",
+                    "x": 73,
+                    "y": 18
+                },
+                {
+                    "id": "p8b66838",
+                    "label": "Mug",
+                    "emoji": "☕",
+                    "x": 31,
+                    "y": 66
+                },
+                {
+                    "id": "pe6a5f9d",
+                    "label": "Keyboard",
+                    "emoji": "⌨️",
+                    "x": 63,
+                    "y": 62
+                }
+            ],
+            "options": [
+                {
+                    "id": "p1c040de",
+                    "text": "Unencrypted backup drive with sensitive data"
+                },
+                {
+                    "id": "p64d3287",
+                    "text": "Phone stand"
+                },
+                {
+                    "id": "pa5bbc7a",
+                    "text": "Plant"
+                },
+                {
+                    "id": "pe6a5f9d",
+                    "text": "Keyboard"
+                },
+                {
+                    "id": "p8b66838",
+                    "text": "Mug"
+                }
+            ]
+        },
+        "answer": "p1c040de"
+    },
+    {
+        "key": "g3_09",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Home camera · 17",
+        "prompt": "There is a security risk in the living room at home. Which object should you tap?",
+        "explanation": "Change the factory sign-in details on smart devices.",
+        "public": {
+            "scene": "home",
+            "location": "Home",
+            "objects": [
+                {
+                    "id": "pb8e2030",
+                    "label": "Television",
+                    "emoji": "📺",
+                    "x": 19,
+                    "y": 19
+                },
+                {
+                    "id": "pd6d8f50",
+                    "label": "Cushion",
+                    "emoji": "🛋️",
+                    "x": 47,
+                    "y": 25
+                },
+                {
+                    "id": "p0e99b9d",
+                    "label": "Book",
+                    "emoji": "📖",
+                    "x": 73,
+                    "y": 18
+                },
+                {
+                    "id": "p2c25976",
+                    "label": "Smart camera still using its factory password",
+                    "emoji": "📹",
+                    "x": 31,
+                    "y": 66
+                },
+                {
+                    "id": "p0a4bf58",
+                    "label": "Flower",
+                    "emoji": "🌸",
+                    "x": 63,
+                    "y": 62
+                }
+            ],
+            "options": [
+                {
+                    "id": "p2c25976",
+                    "text": "Smart camera still using its factory password"
+                },
+                {
+                    "id": "pb8e2030",
+                    "text": "Television"
+                },
+                {
+                    "id": "pd6d8f50",
+                    "text": "Cushion"
+                },
+                {
+                    "id": "p0e99b9d",
+                    "text": "Book"
+                },
+                {
+                    "id": "p0a4bf58",
+                    "text": "Flower"
+                }
+            ]
+        },
+        "answer": "p2c25976"
+    },
+    {
+        "key": "g3_10",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "50+",
+        "title": "Remote support · 20",
+        "prompt": "There is a security risk on the computer screen at home. Which object should you tap?",
+        "explanation": "Never let someone you don't know connect to your computer remotely.",
+        "public": {
+            "scene": "home",
+            "location": "Home",
+            "objects": [
+                {
+                    "id": "p1feac1b",
+                    "label": "Glass",
+                    "emoji": "🥛",
+                    "x": 19,
+                    "y": 19
+                },
+                {
+                    "id": "pb1ca966",
+                    "label": "Plant",
+                    "emoji": "🪴",
+                    "x": 47,
+                    "y": 25
+                },
+                {
+                    "id": "pb156a40",
+                    "label": "Remote access request from an unknown person",
+                    "emoji": "🖥️",
+                    "x": 73,
+                    "y": 18
+                },
+                {
+                    "id": "pe75cfed",
+                    "label": "Book",
+                    "emoji": "📗",
+                    "x": 31,
+                    "y": 66
+                },
+                {
+                    "id": "p4c4ce70",
+                    "label": "Window",
+                    "emoji": "🪟",
+                    "x": 63,
+                    "y": 62
+                }
+            ],
+            "options": [
+                {
+                    "id": "pb156a40",
+                    "text": "Remote access request from an unknown person"
+                },
+                {
+                    "id": "pb1ca966",
+                    "text": "Plant"
+                },
+                {
+                    "id": "p1feac1b",
+                    "text": "Glass"
+                },
+                {
+                    "id": "pe75cfed",
+                    "text": "Book"
+                },
+                {
+                    "id": "p4c4ce70",
+                    "text": "Window"
+                }
+            ]
+        },
+        "answer": "pb156a40"
+    },
+    {
+        "key": "g3_11",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "Cheat program · Library",
+        "prompt": "A child wants to play games on the library computer. Which thing on the desk is dangerous? Tap it.",
+        "explanation": "A 'free cheat program' downloaded from an unknown website often carries harmful software and can steal your game account. Never open files that promise cheats or free items; tell a trusted adult.",
+        "public": {
+            "scene": "library",
+            "location": "Library computer corner",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "'free_cheat_program.exe' file in the Downloads folder",
+                    "emoji": "💾",
+                    "x": 19,
+                    "y": 43
+                },
+                {
+                    "id": "s2",
+                    "label": "Headphones on the desk",
+                    "emoji": "🎧",
+                    "x": 80,
+                    "y": 76
+                },
+                {
+                    "id": "s3",
+                    "label": "Child-friendly encyclopedia website on the computer",
+                    "emoji": "🖥️",
+                    "x": 58,
+                    "y": 30
+                },
+                {
+                    "id": "s4",
+                    "label": "Library card scanner",
+                    "emoji": "🪪",
+                    "x": 82,
+                    "y": 21
+                },
+                {
+                    "id": "s5",
+                    "label": "Library's book borrowing scanner",
+                    "emoji": "📚",
+                    "x": 40,
+                    "y": 77
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "'free_cheat_program.exe' file in the Downloads folder"
+                },
+                {
+                    "id": "s2",
+                    "text": "Headphones on the desk"
+                },
+                {
+                    "id": "s3",
+                    "text": "Child-friendly encyclopedia website on the computer"
+                },
+                {
+                    "id": "s4",
+                    "text": "Library card scanner"
+                },
+                {
+                    "id": "s5",
+                    "text": "Library's book borrowing scanner"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g3_12",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "Free diamonds message · Game",
+        "prompt": "While you play, the chat box fills up. Which thing on the screen puts your account in danger? Tap it.",
+        "explanation": "No game asks for your password to give you free items; these messages are written to steal accounts. Never share your password, show the message to a trusted adult and use the 'Report' button in the game.",
+        "public": {
+            "scene": "phone",
+            "location": "Tablet screen, game chat",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "'Friends only' option in the chat settings",
+                    "emoji": "⚙️",
+                    "x": 58,
+                    "y": 27
+                },
+                {
+                    "id": "s2",
+                    "label": "Your character's costume wardrobe",
+                    "emoji": "👕",
+                    "x": 71,
+                    "y": 47
+                },
+                {
+                    "id": "s3",
+                    "label": "Sound button in the corner of the screen",
+                    "emoji": "🔊",
+                    "x": 8,
+                    "y": 62
+                },
+                {
+                    "id": "s4",
+                    "label": "Chat message saying 'type your password, win 1000 free diamonds'",
+                    "emoji": "💬",
+                    "x": 37,
+                    "y": 37
+                },
+                {
+                    "id": "s5",
+                    "label": "'Daily quest complete' text in the game's own menu",
+                    "emoji": "🏆",
+                    "x": 42,
+                    "y": 80
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "'Friends only' option in the chat settings"
+                },
+                {
+                    "id": "s2",
+                    "text": "Your character's costume wardrobe"
+                },
+                {
+                    "id": "s3",
+                    "text": "Sound button in the corner of the screen"
+                },
+                {
+                    "id": "s4",
+                    "text": "Chat message saying 'type your password, win 1000 free diamonds'"
+                },
+                {
+                    "id": "s5",
+                    "text": "'Daily quest complete' text in the game's own menu"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g3_13",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "Address envelope on stream · Home",
+        "prompt": "You are about to start a game stream from your room. Which thing the camera can see gives away your personal information? Tap it.",
+        "explanation": "The envelope with your address and your school card in the background let strangers watching learn where you live and go to school. Before streaming, check what the camera can see and put personal things away.",
+        "public": {
+            "scene": "home",
+            "location": "Kid's bedroom, streaming corner",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Desk lamp lighting the room",
+                    "emoji": "💡",
+                    "x": 70,
+                    "y": 21
+                },
+                {
+                    "id": "s2",
+                    "label": "Envelope with your home address and your school card on the wall, visible on camera",
+                    "emoji": "✉️",
+                    "x": 31,
+                    "y": 58
+                },
+                {
+                    "id": "s3",
+                    "label": "'Only followers can chat' setting in the streaming app",
+                    "emoji": "🛡️",
+                    "x": 29,
+                    "y": 19
+                },
+                {
+                    "id": "s4",
+                    "label": "Game controller on the desk",
+                    "emoji": "🎮",
+                    "x": 11,
+                    "y": 75
+                },
+                {
+                    "id": "s5",
+                    "label": "Microphone set up for the stream",
+                    "emoji": "🎙️",
+                    "x": 8,
+                    "y": 43
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Desk lamp lighting the room"
+                },
+                {
+                    "id": "s2",
+                    "text": "Envelope with your home address and your school card on the wall, visible on camera"
+                },
+                {
+                    "id": "s3",
+                    "text": "'Only followers can chat' setting in the streaming app"
+                },
+                {
+                    "id": "s4",
+                    "text": "Game controller on the desk"
+                },
+                {
+                    "id": "s5",
+                    "text": "Microphone set up for the stream"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g3_14",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "Photo without permission · Classroom",
+        "prompt": "At break time, everyone in class is busy with their phones. Which thing breaks a classmate's privacy? Tap it.",
+        "explanation": "Posting a classmate's photo to a group without asking breaks their privacy, and you cannot take it back. Before sharing, ask everyone in the photo; if anyone says no, don't share it.",
+        "public": {
+            "scene": "class",
+            "location": "Classroom, break time",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Class bookshelf",
+                    "emoji": "📚",
+                    "x": 32,
+                    "y": 74
+                },
+                {
+                    "id": "s2",
+                    "label": "Switched-off tablet on the teacher's desk",
+                    "emoji": "📱",
+                    "x": 72,
+                    "y": 29
+                },
+                {
+                    "id": "s3",
+                    "label": "Calculator charging",
+                    "emoji": "🧮",
+                    "x": 65,
+                    "y": 54
+                },
+                {
+                    "id": "s4",
+                    "label": "Lesson slides open on the smart board",
+                    "emoji": "🖥️",
+                    "x": 51,
+                    "y": 14
+                },
+                {
+                    "id": "s5",
+                    "label": "Photo of a classmate taken without asking, about to be sent to the class group",
+                    "emoji": "📸",
+                    "x": 17,
+                    "y": 35
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Class bookshelf"
+                },
+                {
+                    "id": "s2",
+                    "text": "Switched-off tablet on the teacher's desk"
+                },
+                {
+                    "id": "s3",
+                    "text": "Calculator charging"
+                },
+                {
+                    "id": "s4",
+                    "text": "Lesson slides open on the smart board"
+                },
+                {
+                    "id": "s5",
+                    "text": "Photo of a classmate taken without asking, about to be sent to the class group"
+                }
+            ]
+        },
+        "answer": "s5"
+    },
+    {
+        "key": "g3_15",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "14-18",
+        "title": "Public profile · Social",
+        "prompt": "You are editing your social media profile. Which item on the screen gives scammers easy information? Tap it.",
+        "explanation": "A public birthday, school name and neighbourhood can be used to guess security questions and write convincing messages aimed at you. Hide these details or show them only to close friends.",
+        "public": {
+            "scene": "phone",
+            "location": "Social media profile settings",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Two-step verification turned on",
+                    "emoji": "🔑",
+                    "x": 48,
+                    "y": 79
+                },
+                {
+                    "id": "s2",
+                    "label": "Account privacy: 'approved followers only'",
+                    "emoji": "🔒",
+                    "x": 79,
+                    "y": 72
+                },
+                {
+                    "id": "s3",
+                    "label": "Public birthday, school name and neighbourhood in your bio",
+                    "emoji": "🎂",
+                    "x": 76,
+                    "y": 20
+                },
+                {
+                    "id": "s4",
+                    "label": "Muted notifications",
+                    "emoji": "🔕",
+                    "x": 40,
+                    "y": 29
+                },
+                {
+                    "id": "s5",
+                    "label": "Landscape picture as your profile photo",
+                    "emoji": "🏞️",
+                    "x": 27,
+                    "y": 53
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Two-step verification turned on"
+                },
+                {
+                    "id": "s2",
+                    "text": "Account privacy: 'approved followers only'"
+                },
+                {
+                    "id": "s3",
+                    "text": "Public birthday, school name and neighbourhood in your bio"
+                },
+                {
+                    "id": "s4",
+                    "text": "Muted notifications"
+                },
+                {
+                    "id": "s5",
+                    "text": "Landscape picture as your profile photo"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g3_16",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "14-18",
+        "title": "Paid scholarship ad · Cafe",
+        "prompt": "You are looking at scholarship applications in a cafe. Which item on the table shows a sign of a scam? Tap it.",
+        "explanation": "Real scholarships do not charge a 'processing fee' to apply; a scholarship promised for a fee is a classic scam. Check scholarship news only on your school's or the organisation's official page.",
+        "public": {
+            "scene": "cafe",
+            "location": "Cafe, study table",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Laptop tab showing the school's official announcements page",
+                    "emoji": "💻",
+                    "x": 38,
+                    "y": 56
+                },
+                {
+                    "id": "s2",
+                    "label": "Application deadline notes in your notebook",
+                    "emoji": "📒",
+                    "x": 67,
+                    "y": 44
+                },
+                {
+                    "id": "s3",
+                    "label": "Social media ad on your phone saying 'scholarship guaranteed, pay a $25 application fee'",
+                    "emoji": "📢",
+                    "x": 13,
+                    "y": 42
+                },
+                {
+                    "id": "s4",
+                    "label": "The cafe's menu board",
+                    "emoji": "📋",
+                    "x": 27,
+                    "y": 80
+                },
+                {
+                    "id": "s5",
+                    "label": "Headphones on the table",
+                    "emoji": "🎧",
+                    "x": 58,
+                    "y": 78
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Laptop tab showing the school's official announcements page"
+                },
+                {
+                    "id": "s2",
+                    "text": "Application deadline notes in your notebook"
+                },
+                {
+                    "id": "s3",
+                    "text": "Social media ad on your phone saying 'scholarship guaranteed, pay a $25 application fee'"
+                },
+                {
+                    "id": "s4",
+                    "text": "The cafe's menu board"
+                },
+                {
+                    "id": "s5",
+                    "text": "Headphones on the table"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g3_17",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Shoulder surfing · Cafe",
+        "prompt": "You are working in a busy cafe. Which item on your table shows private information to people around you? Tap it.",
+        "explanation": "A laptop facing the next table with a salary spreadsheet open lets anyone looking over your shoulder see or photograph it. Avoid opening sensitive files in public; if you must, use a privacy screen filter and face the screen toward a wall.",
+        "public": {
+            "scene": "cafe",
+            "location": "Cafe, window table",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Tablet with a privacy screen filter",
+                    "emoji": "📱",
+                    "x": 23,
+                    "y": 44
+                },
+                {
+                    "id": "s2",
+                    "label": "Laptop facing the next table, showing an open salary spreadsheet",
+                    "emoji": "💻",
+                    "x": 66,
+                    "y": 26
+                },
+                {
+                    "id": "s3",
+                    "label": "Coffee cup on the table",
+                    "emoji": "☕",
+                    "x": 58,
+                    "y": 50
+                },
+                {
+                    "id": "s4",
+                    "label": "Personal hotspot you turned on from your phone",
+                    "emoji": "📶",
+                    "x": 11,
+                    "y": 75
+                },
+                {
+                    "id": "s5",
+                    "label": "Locked phone lying face down",
+                    "emoji": "🔒",
+                    "x": 65,
+                    "y": 72
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Tablet with a privacy screen filter"
+                },
+                {
+                    "id": "s2",
+                    "text": "Laptop facing the next table, showing an open salary spreadsheet"
+                },
+                {
+                    "id": "s3",
+                    "text": "Coffee cup on the table"
+                },
+                {
+                    "id": "s4",
+                    "text": "Personal hotspot you turned on from your phone"
+                },
+                {
+                    "id": "s5",
+                    "text": "Locked phone lying face down"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g3_18",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Fake front desk call · Hotel",
+        "prompt": "You have just checked into your hotel room. Which item could be trying to steal your card details? Tap it.",
+        "explanation": "Hotels do not ask for card details by calling your room; a caller claiming to be the front desk may be a scammer. Hang up and check by going to the front desk in person or calling the number shown in the lobby.",
+        "public": {
+            "scene": "hotel",
+            "location": "Hotel room",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Wi-Fi info card handed to you at the front desk",
+                    "emoji": "📶",
+                    "x": 10,
+                    "y": 18
+                },
+                {
+                    "id": "s2",
+                    "label": "Voicemail on the room phone from 'the front desk' asking for your card number again",
+                    "emoji": "☎️",
+                    "x": 23,
+                    "y": 51
+                },
+                {
+                    "id": "s3",
+                    "label": "Closed and locked room safe",
+                    "emoji": "🧰",
+                    "x": 83,
+                    "y": 28
+                },
+                {
+                    "id": "s4",
+                    "label": "Security chain on the door",
+                    "emoji": "⛓️",
+                    "x": 62,
+                    "y": 64
+                },
+                {
+                    "id": "s5",
+                    "label": "Your own travel charging adapter",
+                    "emoji": "🔌",
+                    "x": 56,
+                    "y": 27
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Wi-Fi info card handed to you at the front desk"
+                },
+                {
+                    "id": "s2",
+                    "text": "Voicemail on the room phone from 'the front desk' asking for your card number again"
+                },
+                {
+                    "id": "s3",
+                    "text": "Closed and locked room safe"
+                },
+                {
+                    "id": "s4",
+                    "text": "Security chain on the door"
+                },
+                {
+                    "id": "s5",
+                    "text": "Your own travel charging adapter"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g3_19",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Old access rights · 18",
+        "prompt": "There is a security risk on the office access panel. Which object should you tap?",
+        "explanation": "Accounts and access that are no longer needed should be closed.",
+        "public": {
+            "scene": "office",
+            "location": "Office",
+            "objects": [
+                {
+                    "id": "p64a1f19",
+                    "label": "File",
+                    "emoji": "📁",
+                    "x": 19,
+                    "y": 19
+                },
+                {
+                    "id": "p2a7a101",
+                    "label": "Cup",
+                    "emoji": "🥤",
+                    "x": 47,
+                    "y": 25
+                },
+                {
+                    "id": "pe582d2f",
+                    "label": "Pen",
+                    "emoji": "🖊️",
+                    "x": 73,
+                    "y": 18
+                },
+                {
+                    "id": "p008183e",
+                    "label": "Clock",
+                    "emoji": "⏰",
+                    "x": 31,
+                    "y": 66
+                },
+                {
+                    "id": "p1a26479",
+                    "label": "Still-active account of an employee who has left",
+                    "emoji": "👤",
+                    "x": 63,
+                    "y": 62
+                }
+            ],
+            "options": [
+                {
+                    "id": "p1a26479",
+                    "text": "Still-active account of an employee who has left"
+                },
+                {
+                    "id": "p008183e",
+                    "text": "Clock"
+                },
+                {
+                    "id": "pe582d2f",
+                    "text": "Pen"
+                },
+                {
+                    "id": "p64a1f19",
+                    "text": "File"
+                },
+                {
+                    "id": "p2a7a101",
+                    "text": "Cup"
+                }
+            ]
+        },
+        "answer": "p1a26479"
+    },
+    {
+        "key": "g3_20",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 4,
+        "age_scope": "14-18",
+        "title": "First bank card · Photos",
+        "prompt": "You just got your first bank card and are tidying up your phone. Which item on the screen puts your card details at risk? Tap it.",
+        "explanation": "The front and back of a card show the card number, expiry date and security code; anyone in the shared album could use them to shop online. Delete the photo and, if needed, get a new card and use a virtual card.",
+        "public": {
+            "scene": "phone",
+            "location": "Phone photo gallery and banking app",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Virtual card screen created in the banking app",
+                    "emoji": "💳",
+                    "x": 18,
+                    "y": 42
+                },
+                {
+                    "id": "s2",
+                    "label": "Alert for every purchase (turned on)",
+                    "emoji": "🔔",
+                    "x": 42,
+                    "y": 13
+                },
+                {
+                    "id": "s3",
+                    "label": "The phone's 6-digit screen lock",
+                    "emoji": "🔒",
+                    "x": 61,
+                    "y": 59
+                },
+                {
+                    "id": "s4",
+                    "label": "Low online shopping limit set in the banking app",
+                    "emoji": "🏦",
+                    "x": 42,
+                    "y": 76
+                },
+                {
+                    "id": "s5",
+                    "label": "Front and back photos of your bank card uploaded to the shared family album",
+                    "emoji": "🖼️",
+                    "x": 54,
+                    "y": 32
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Virtual card screen created in the banking app"
+                },
+                {
+                    "id": "s2",
+                    "text": "Alert for every purchase (turned on)"
+                },
+                {
+                    "id": "s3",
+                    "text": "The phone's 6-digit screen lock"
+                },
+                {
+                    "id": "s4",
+                    "text": "Low online shopping limit set in the banking app"
+                },
+                {
+                    "id": "s5",
+                    "text": "Front and back photos of your bank card uploaded to the shared family album"
+                }
+            ]
+        },
+        "answer": "s5"
+    },
+    {
+        "key": "g3_21",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 4,
+        "age_scope": "14-18",
+        "title": "Intern's customer list · Office",
+        "prompt": "You are in the first week of a summer internship. Which item on your desk risks leaking company data? Tap it.",
+        "explanation": "Sending the company's customer list to your personal email takes the data outside the company's protection; this is a serious data leak and can break data protection laws. If you need to work from home, use the approved tools the company gives you.",
+        "public": {
+            "scene": "office",
+            "location": "Summer internship, office desk",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Company customer list open and about to be forwarded to your personal email",
+                    "emoji": "📧",
+                    "x": 81,
+                    "y": 64
+                },
+                {
+                    "id": "s2",
+                    "label": "Second monitor with a locked screen",
+                    "emoji": "🖥️",
+                    "x": 17,
+                    "y": 12
+                },
+                {
+                    "id": "s3",
+                    "label": "Intern access card around your neck",
+                    "emoji": "🪪",
+                    "x": 14,
+                    "y": 40
+                },
+                {
+                    "id": "s4",
+                    "label": "The company's secure connection (VPN) app, connected",
+                    "emoji": "🛡️",
+                    "x": 56,
+                    "y": 80
+                },
+                {
+                    "id": "s5",
+                    "label": "Printed meeting calendar on the desk (times only)",
+                    "emoji": "📅",
+                    "x": 36,
+                    "y": 67
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Company customer list open and about to be forwarded to your personal email"
+                },
+                {
+                    "id": "s2",
+                    "text": "Second monitor with a locked screen"
+                },
+                {
+                    "id": "s3",
+                    "text": "Intern access card around your neck"
+                },
+                {
+                    "id": "s4",
+                    "text": "The company's secure connection (VPN) app, connected"
+                },
+                {
+                    "id": "s5",
+                    "text": "Printed meeting calendar on the desk (times only)"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g3_22",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 4,
+        "age_scope": "14-18",
+        "title": "Tournament sign-in window · Game",
+        "prompt": "You are about to sign up for an online game tournament. Which item on the screen could be set up to steal your account? Tap it.",
+        "explanation": "A fake 'sign-in window' drawn inside the page looks like a real browser window, but its address bar is fake; the password you type goes straight to the attacker. Always sign in through the platform's own app or by typing its address yourself.",
+        "public": {
+            "scene": "home",
+            "location": "Home, gaming computer",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Muted streaming microphone",
+                    "emoji": "🎙️",
+                    "x": 46,
+                    "y": 27
+                },
+                {
+                    "id": "s2",
+                    "label": "Game controller on the desk",
+                    "emoji": "🎮",
+                    "x": 58,
+                    "y": 69
+                },
+                {
+                    "id": "s3",
+                    "label": "6-digit code in the authenticator app",
+                    "emoji": "🔢",
+                    "x": 74,
+                    "y": 40
+                },
+                {
+                    "id": "s4",
+                    "label": "'Sign in with your game account' window on the tournament site that cannot be dragged outside the page",
+                    "emoji": "🪟",
+                    "x": 9,
+                    "y": 22
+                },
+                {
+                    "id": "s5",
+                    "label": "List of signed-in devices in the game platform's settings",
+                    "emoji": "📋",
+                    "x": 80,
+                    "y": 63
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Muted streaming microphone"
+                },
+                {
+                    "id": "s2",
+                    "text": "Game controller on the desk"
+                },
+                {
+                    "id": "s3",
+                    "text": "6-digit code in the authenticator app"
+                },
+                {
+                    "id": "s4",
+                    "text": "'Sign in with your game account' window on the tournament site that cannot be dragged outside the page"
+                },
+                {
+                    "id": "s5",
+                    "text": "List of signed-in devices in the game platform's settings"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g3_23",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Open remote desktop · Office",
+        "prompt": "At lunchtime the open-plan office is empty. Which item on the desks opens the door to unauthorised access? Tap it.",
+        "explanation": "A remote desktop session left open gives access to the server with your permissions; anyone who sits down can use them. When you leave your desk, sign out or lock the screen and end the remote connection.",
+        "public": {
+            "scene": "office",
+            "location": "Office, open-plan area",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Workstation with a locked screen",
+                    "emoji": "🔒",
+                    "x": 86,
+                    "y": 55
+                },
+                {
+                    "id": "s2",
+                    "label": "Conference camera with its cover closed",
+                    "emoji": "📷",
+                    "x": 32,
+                    "y": 51
+                },
+                {
+                    "id": "s3",
+                    "label": "Secure printer that releases prints only with a staff card",
+                    "emoji": "🖨️",
+                    "x": 66,
+                    "y": 30
+                },
+                {
+                    "id": "s4",
+                    "label": "Remote desktop session connected to a server, left open on screen while its owner is away",
+                    "emoji": "🖥️",
+                    "x": 35,
+                    "y": 75
+                },
+                {
+                    "id": "s5",
+                    "label": "Encrypted company laptop with an inventory tag (in a drawer)",
+                    "emoji": "💼",
+                    "x": 54,
+                    "y": 55
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Workstation with a locked screen"
+                },
+                {
+                    "id": "s2",
+                    "text": "Conference camera with its cover closed"
+                },
+                {
+                    "id": "s3",
+                    "text": "Secure printer that releases prints only with a staff card"
+                },
+                {
+                    "id": "s4",
+                    "text": "Remote desktop session connected to a server, left open on screen while its owner is away"
+                },
+                {
+                    "id": "s5",
+                    "text": "Encrypted company laptop with an inventory tag (in a drawer)"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g3_24",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Whiteboard in the background · Home",
+        "prompt": "You are about to join a video call with a client from home. Which item in the camera view leaks confidential information? Tap it.",
+        "explanation": "Client names and contract amounts on a whiteboard seen on camera leak for good if the call is recorded or someone takes a screenshot. Check your camera view before the call; blurring the background alone may not hide everything.",
+        "public": {
+            "scene": "home",
+            "location": "Home office, video call",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Whiteboard behind you, visible on camera, with client names and contract amounts",
+                    "emoji": "📝",
+                    "x": 12,
+                    "y": 54
+                },
+                {
+                    "id": "s2",
+                    "label": "Muted microphone in the meeting app",
+                    "emoji": "🎙️",
+                    "x": 42,
+                    "y": 78
+                },
+                {
+                    "id": "s3",
+                    "label": "Personal phone with a locked screen",
+                    "emoji": "📱",
+                    "x": 58,
+                    "y": 26
+                },
+                {
+                    "id": "s4",
+                    "label": "Wired headphones",
+                    "emoji": "🎧",
+                    "x": 83,
+                    "y": 63
+                },
+                {
+                    "id": "s5",
+                    "label": "Up-to-date laptop provided by the company",
+                    "emoji": "💻",
+                    "x": 34,
+                    "y": 14
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Whiteboard behind you, visible on camera, with client names and contract amounts"
+                },
+                {
+                    "id": "s2",
+                    "text": "Muted microphone in the meeting app"
+                },
+                {
+                    "id": "s3",
+                    "text": "Personal phone with a locked screen"
+                },
+                {
+                    "id": "s4",
+                    "text": "Wired headphones"
+                },
+                {
+                    "id": "s5",
+                    "text": "Up-to-date laptop provided by the company"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g3_25",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Scans in the shared folder · Library",
+        "prompt": "You scanned some documents at the library and went back to work. Which item here leaves your personal data exposed? Tap it.",
+        "explanation": "ID and contract scans left in the shared scanner's folder can be copied by anyone who comes after you and used for identity fraud. Once you have saved the scan to your own USB stick or account, delete it from the shared folder.",
+        "public": {
+            "scene": "library",
+            "location": "Library, scanning and printing area",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Library card reader",
+                    "emoji": "🪪",
+                    "x": 62,
+                    "y": 27
+                },
+                {
+                    "id": "s2",
+                    "label": "VPN connection turned on on your own laptop",
+                    "emoji": "🛡️",
+                    "x": 16,
+                    "y": 33
+                },
+                {
+                    "id": "s3",
+                    "label": "The library's book borrowing kiosk",
+                    "emoji": "📚",
+                    "x": 85,
+                    "y": 75
+                },
+                {
+                    "id": "s4",
+                    "label": "Locked locker with the key in your pocket",
+                    "emoji": "🔐",
+                    "x": 44,
+                    "y": 61
+                },
+                {
+                    "id": "s5",
+                    "label": "Your ID and rental contract scans left in the shared scanner's folder",
+                    "emoji": "🗂️",
+                    "x": 42,
+                    "y": 37
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Library card reader"
+                },
+                {
+                    "id": "s2",
+                    "text": "VPN connection turned on on your own laptop"
+                },
+                {
+                    "id": "s3",
+                    "text": "The library's book borrowing kiosk"
+                },
+                {
+                    "id": "s4",
+                    "text": "Locked locker with the key in your pocket"
+                },
+                {
+                    "id": "s5",
+                    "text": "Your ID and rental contract scans left in the shared scanner's folder"
+                }
+            ]
+        },
+        "answer": "s5"
+    },
+    {
+        "key": "g3_26",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 4,
+        "age_scope": "50+",
+        "title": "Grandchild's new number · Messages",
+        "prompt": "You have a few new messages on your phone. Which one could have been sent to scam you? Tap it.",
+        "explanation": "Someone writing 'my phone broke, I need money urgently' from an unsaved number may be pretending to be your grandchild. Before sending money, call your grandchild on their old saved number or ask another family member.",
+        "public": {
+            "scene": "phone",
+            "location": "Phone messages screen",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Missed call from your son's saved number",
+                    "emoji": "📞",
+                    "x": 14,
+                    "y": 56
+                },
+                {
+                    "id": "s2",
+                    "label": "System update notice in the Settings menu",
+                    "emoji": "⚙️",
+                    "x": 42,
+                    "y": 22
+                },
+                {
+                    "id": "s3",
+                    "label": "Photo your grandchild shared in the family group",
+                    "emoji": "🖼️",
+                    "x": 80,
+                    "y": 44
+                },
+                {
+                    "id": "s4",
+                    "label": "Message from an unsaved number: 'Grandma, my phone broke, I need money urgently'",
+                    "emoji": "💬",
+                    "x": 39,
+                    "y": 52
+                },
+                {
+                    "id": "s5",
+                    "label": "'Pension paid' notice from your bank's own app",
+                    "emoji": "🏦",
+                    "x": 9,
+                    "y": 21
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Missed call from your son's saved number"
+                },
+                {
+                    "id": "s2",
+                    "text": "System update notice in the Settings menu"
+                },
+                {
+                    "id": "s3",
+                    "text": "Photo your grandchild shared in the family group"
+                },
+                {
+                    "id": "s4",
+                    "text": "Message from an unsaved number: 'Grandma, my phone broke, I need money urgently'"
+                },
+                {
+                    "id": "s5",
+                    "text": "'Pension paid' notice from your bank's own app"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g3_27",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 4,
+        "age_scope": "50+",
+        "title": "Customs fee text · Parcel",
+        "prompt": "You are checking your phone and tablet in the living room. Which item could have been sent to steal your money and card details? Tap it.",
+        "explanation": "A parcel text with a link asking for a small 'customs fee' leads to a fake page that collects card details. Do not tap the link; track your parcel only in the delivery company's official app or on a number you look up yourself.",
+        "public": {
+            "scene": "home",
+            "location": "Home, living room",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Official pension app from the government agency, downloaded from the app store, on the tablet",
+                    "emoji": "📱",
+                    "x": 25,
+                    "y": 47
+                },
+                {
+                    "id": "s2",
+                    "label": "Text with a link on your phone: 'Your parcel is waiting, pay a $2.90 customs fee'",
+                    "emoji": "📦",
+                    "x": 75,
+                    "y": 59
+                },
+                {
+                    "id": "s3",
+                    "label": "Family address book next to the landline",
+                    "emoji": "📒",
+                    "x": 66,
+                    "y": 24
+                },
+                {
+                    "id": "s4",
+                    "label": "Doorbell camera with its password changed",
+                    "emoji": "🔔",
+                    "x": 20,
+                    "y": 77
+                },
+                {
+                    "id": "s5",
+                    "label": "TV remote",
+                    "emoji": "📺",
+                    "x": 15,
+                    "y": 10
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Official pension app from the government agency, downloaded from the app store, on the tablet"
+                },
+                {
+                    "id": "s2",
+                    "text": "Text with a link on your phone: 'Your parcel is waiting, pay a $2.90 customs fee'"
+                },
+                {
+                    "id": "s3",
+                    "text": "Family address book next to the landline"
+                },
+                {
+                    "id": "s4",
+                    "text": "Doorbell camera with its password changed"
+                },
+                {
+                    "id": "s5",
+                    "text": "TV remote"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g3_28",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Admin panel on guest Wi-Fi · Meeting",
+        "prompt": "The client meeting is over and the guests are having coffee in the room. Which item creates a serious security hole? Tap it.",
+        "explanation": "An admin panel left signed in on a smart screen connected to guest Wi-Fi lets anyone in the room change the device's settings and networks. Sign out of admin sessions and keep meeting-room devices on a network separate from guests.",
+        "public": {
+            "scene": "office",
+            "location": "Office meeting room",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Guest Wi-Fi info card on the table",
+                    "emoji": "📶",
+                    "x": 14,
+                    "y": 69
+                },
+                {
+                    "id": "s2",
+                    "label": "Muted conference speaker",
+                    "emoji": "🔈",
+                    "x": 41,
+                    "y": 47
+                },
+                {
+                    "id": "s3",
+                    "label": "Admin panel left signed in on a smart screen connected to guest Wi-Fi",
+                    "emoji": "📺",
+                    "x": 31,
+                    "y": 16
+                },
+                {
+                    "id": "s4",
+                    "label": "Wireless presentation adapter with a company inventory tag",
+                    "emoji": "📡",
+                    "x": 79,
+                    "y": 10
+                },
+                {
+                    "id": "s5",
+                    "label": "Room booking tablet by the door",
+                    "emoji": "📅",
+                    "x": 73,
+                    "y": 65
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Guest Wi-Fi info card on the table"
+                },
+                {
+                    "id": "s2",
+                    "text": "Muted conference speaker"
+                },
+                {
+                    "id": "s3",
+                    "text": "Admin panel left signed in on a smart screen connected to guest Wi-Fi"
+                },
+                {
+                    "id": "s4",
+                    "text": "Wireless presentation adapter with a company inventory tag"
+                },
+                {
+                    "id": "s5",
+                    "text": "Room booking tablet by the door"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g3_29",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Approval request after request · Two-step",
+        "prompt": "Notifications hit your phone at midnight. Which item on the screen shows someone trying to break into your account? Tap it.",
+        "explanation": "A stream of sign-in approval requests you did not start means the attacker knows your password and hopes you tap 'Approve' out of tiredness. Never approve: deny it, change your password and tell your IT team.",
+        "public": {
+            "scene": "phone",
+            "location": "Phone lock screen",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Locked password manager app",
+                    "emoji": "🔐",
+                    "x": 64,
+                    "y": 12
+                },
+                {
+                    "id": "s2",
+                    "label": "Calendar reminder for a morning meeting",
+                    "emoji": "📅",
+                    "x": 9,
+                    "y": 19
+                },
+                {
+                    "id": "s3",
+                    "label": "Passkey sign-in request you started on your own laptop",
+                    "emoji": "🔑",
+                    "x": 71,
+                    "y": 42
+                },
+                {
+                    "id": "s4",
+                    "label": "Sign-in you started on your own computer, asking you to match the number on screen",
+                    "emoji": "🔢",
+                    "x": 41,
+                    "y": 20
+                },
+                {
+                    "id": "s5",
+                    "label": "7th 'Is this you signing in? Approve' notification, arriving at 2:14 AM",
+                    "emoji": "📲",
+                    "x": 34,
+                    "y": 65
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Locked password manager app"
+                },
+                {
+                    "id": "s2",
+                    "text": "Calendar reminder for a morning meeting"
+                },
+                {
+                    "id": "s3",
+                    "text": "Passkey sign-in request you started on your own laptop"
+                },
+                {
+                    "id": "s4",
+                    "text": "Sign-in you started on your own computer, asking you to match the number on screen"
+                },
+                {
+                    "id": "s5",
+                    "text": "7th 'Is this you signing in? Approve' notification, arriving at 2:14 AM"
+                }
+            ]
+        },
+        "answer": "s5"
+    },
+    {
+        "key": "g3_30",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Add-on asking too much · App access",
+        "prompt": "A colleague suggested a tool for merging PDFs. Which item on the screen puts your account at risk? Tap it.",
+        "explanation": "A simple PDF tool asking to read, send and delete all your emails is a trap. If you approve, the app gets lasting access to your account without your password or two-step verification. Deny it, use IT-approved tools and report the app.",
+        "public": {
+            "scene": "office",
+            "location": "Office, finance team desk",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Folder set to 'team only' in the company file share",
+                    "emoji": "🗂️",
+                    "x": 72,
+                    "y": 36
+                },
+                {
+                    "id": "s2",
+                    "label": "Security key sign-in turned on for your work account",
+                    "emoji": "🔑",
+                    "x": 40,
+                    "y": 41
+                },
+                {
+                    "id": "s3",
+                    "label": "Approval window asking to let 'PDF Merger' read, send and delete all your emails",
+                    "emoji": "🧩",
+                    "x": 53,
+                    "y": 63
+                },
+                {
+                    "id": "s4",
+                    "label": "Autofill icon of the company password manager",
+                    "emoji": "🔐",
+                    "x": 10,
+                    "y": 60
+                },
+                {
+                    "id": "s5",
+                    "label": "Second monitor with a locked screen",
+                    "emoji": "🖥️",
+                    "x": 44,
+                    "y": 10
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Folder set to 'team only' in the company file share"
+                },
+                {
+                    "id": "s2",
+                    "text": "Security key sign-in turned on for your work account"
+                },
+                {
+                    "id": "s3",
+                    "text": "Approval window asking to let 'PDF Merger' read, send and delete all your emails"
+                },
+                {
+                    "id": "s4",
+                    "text": "Autofill icon of the company password manager"
+                },
+                {
+                    "id": "s5",
+                    "text": "Second monitor with a locked screen"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g3_31",
+        "game_id": 3,
+        "kind": "hunt",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "QR flyer under the door · Hotel",
+        "prompt": "Back at your hotel room, you find some things by the door. Which item could have been left to steal your payment details? Tap it.",
+        "explanation": "A flyer slipped under the door saying 'scan the QR code for room service' is a QR scam; the code leads to a fake payment page that collects card details. Order and pay by asking the front desk or using the hotel's official in-room menu.",
+        "public": {
+            "scene": "hotel",
+            "location": "Hotel room, entrance",
+            "objects": [
+                {
+                    "id": "s1",
+                    "label": "Flyer slipped under the door: 'Scan the QR code to order room service, pay by card'",
+                    "emoji": "🔳",
+                    "x": 19,
+                    "y": 20
+                },
+                {
+                    "id": "s2",
+                    "label": "Your own travel charging adapter",
+                    "emoji": "🔌",
+                    "x": 79,
+                    "y": 52
+                },
+                {
+                    "id": "s3",
+                    "label": "Room key card handed to you at the front desk",
+                    "emoji": "🗝️",
+                    "x": 26,
+                    "y": 43
+                },
+                {
+                    "id": "s4",
+                    "label": "Hotel-branded Wi-Fi info card in the room",
+                    "emoji": "📶",
+                    "x": 60,
+                    "y": 78
+                },
+                {
+                    "id": "s5",
+                    "label": "Hotel welcome screen on the TV",
+                    "emoji": "📺",
+                    "x": 52,
+                    "y": 31
+                }
+            ],
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Flyer slipped under the door: 'Scan the QR code to order room service, pay by card'"
+                },
+                {
+                    "id": "s2",
+                    "text": "Your own travel charging adapter"
+                },
+                {
+                    "id": "s3",
+                    "text": "Room key card handed to you at the front desk"
+                },
+                {
+                    "id": "s4",
+                    "text": "Hotel-branded Wi-Fi info card in the room"
+                },
+                {
+                    "id": "s5",
+                    "text": "Hotel welcome screen on the TV"
+                }
+            ]
+        },
+        "answer": "s1"
+    }
+]

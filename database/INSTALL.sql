@@ -122,8 +122,8 @@ INSERT IGNORE INTO games (id,slug,name,description,seconds_limit,questions_per_a
  (6,'cyber-shield','Cyber Shield','Prove yourself in the cyber knowledge arena.',300,5,3,6);
 INSERT IGNORE INTO settings (`key`,value) VALUES
  ('site_title','Cyber Adventure'),('site_subtitle','Play. Learn. Collect Points!'),
- ('registration_open','1'),('site_notice',''),('setup_complete','0'),
- ('music_main_url','/assets/sounds/main-theme.mp3'),('music_game_url','/assets/sounds/game-theme.mp3'),
+ ('registration_open','1'),('site_notice',''),('organization_name','XtremeLab.Co × ISTRL'),('setup_complete','0'),
+ ('music_main_url','/assets/sounds/main-theme.mp3'),('music_game_url','/assets/sounds/main-theme.mp3'),
  ('music_source_url','https://opengameart.org/content/brute-force');
 
 -- ===== Questions (188) =====

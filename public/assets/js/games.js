@@ -27,7 +27,7 @@
       if(secs===0){clearInterval(tick);locked=true;stage.innerHTML=`<div class="result-stage"><span class="result-medal">⏳</span><h2>Time's up!</h2><p>This round could not be finished. You can try again in a new game.</p><a class="btn btn-game" href="/dashboard">Back to Player Dashboard →</a></div>`;}
     };run();tick=setInterval(run,250);
   }
-  function audioSource() {return world.dataset.musicUrl||'/assets/sounds/game-theme.mp3';}
+  function audioSource() {return world.dataset.musicUrl||'/assets/sounds/main-theme.mp3';}
   function setSoundLabel(text){const btn=document.querySelector('.sound-toggle');if(btn){btn.textContent=text;btn.setAttribute('aria-pressed',playing?'true':'false');}}
   function prepareMusic(){if(!music){music=new Audio(audioSource());music.loop=true;music.volume=.22;music.preload='auto';}}
   function playMusic(){prepareMusic();return music.play().then(()=>{playing=true;setSoundLabel('♫ Music: On');}).catch(()=>{playing=false;setSoundLabel('♫ Turn Music On');throw Error('autoplay');});}

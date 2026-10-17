@@ -1,0 +1,568 @@
+[
+    {
+        "key": "g1_01",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Nebula Structures · Round 7",
+        "prompt": "Which image was made with AI?",
+        "explanation": "An image can look realistic or flawless, but that alone does not prove where it came from. Check the publisher, run a reverse image search and look for Content Credentials or a provenance record if there is one.",
+        "public": {
+            "images": {
+                "photo": "/assets/media/game1/img_6bab7b2c95a7.webp",
+                "ai": "/assets/media/game1/img_e4b3d0c2c478.webp"
+            },
+            "credit": "Photo: scikit-image sample data, sourced from NASA; synthetic counterpart: created for this project with OpenAI ImageGen.",
+            "action_tip": "Whether an image is true and how it was made are two different questions; check the context separately.",
+            "options": [
+                {
+                    "id": "photo",
+                    "text": "Source photo"
+                },
+                {
+                    "id": "ai",
+                    "text": "AI-generated"
+                }
+            ]
+        },
+        "answer": "ai"
+    },
+    {
+        "key": "g1_02",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Documentary Frame · Round 9",
+        "prompt": "Which image was made with AI?",
+        "explanation": "An image can look realistic or flawless, but that alone does not prove where it came from. Check the publisher, run a reverse image search and look for Content Credentials or a provenance record if there is one.",
+        "public": {
+            "images": {
+                "photo": "/assets/media/game1/img_f0aba2e3d3c4.webp",
+                "ai": "/assets/media/game1/img_cac2675b6be8.webp"
+            },
+            "credit": "Photo: scikit-image sample data, sourced from NASA; synthetic counterpart: created for this project with OpenAI ImageGen.",
+            "action_tip": "Whether an image is true and how it was made are two different questions; check the context separately.",
+            "options": [
+                {
+                    "id": "photo",
+                    "text": "Source photo"
+                },
+                {
+                    "id": "ai",
+                    "text": "AI-generated"
+                }
+            ]
+        },
+        "answer": "ai"
+    },
+    {
+        "key": "g1_03",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Night Sky · Round 11",
+        "prompt": "Which image was made with AI?",
+        "explanation": "An image can look realistic or flawless, but that alone does not prove where it came from. Check the publisher, run a reverse image search and look for Content Credentials or a provenance record if there is one.",
+        "public": {
+            "images": {
+                "photo": "/assets/media/game1/img_6ef347d36b58.webp",
+                "ai": "/assets/media/game1/img_b9e2ae090031.webp"
+            },
+            "credit": "Photo: scikit-image sample data, sourced from NASA; synthetic counterpart: created for this project with OpenAI ImageGen.",
+            "action_tip": "Whether an image is true and how it was made are two different questions; check the context separately.",
+            "options": [
+                {
+                    "id": "photo",
+                    "text": "Source photo"
+                },
+                {
+                    "id": "ai",
+                    "text": "AI-generated"
+                }
+            ]
+        },
+        "answer": "ai"
+    },
+    {
+        "key": "g1_04",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 3,
+        "age_scope": "0-13,14-18",
+        "title": "Web image · Mountain lake and cabins",
+        "prompt": "Which image was made with AI?",
+        "explanation": "Light pouring from a cloud onto the mountain, fairy-tale colours and identical cabins are not realistic; in the real photo the reflections and trees are irregular. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_9c87cf67083d.webp",
+                "b": "/assets/media/game1/img_c2b6707d8696.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: inkknife_2000 (7.5 million views +), CC BY-SA 2.0, Wikimedia Commons. AI image: Apple Image Playground, Public domain, Wikimedia Commons."
+        },
+        "answer": "a"
+    },
+    {
+        "key": "g1_05",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 3,
+        "age_scope": "0-13,14-18",
+        "title": "Web image · Snowy canal town",
+        "prompt": "Which image was made with AI?",
+        "explanation": "A giant moon, a sky full of stars and storybook buildings would not look this sharp in a real night photo; in the real photo the lights are scattered and the sky is dark. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_d08e0999dfec.webp",
+                "b": "/assets/media/game1/img_3b8f90cec95b.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: Fons Heijnsbroek, CC0, Wikimedia Commons. AI image: Seedream 4.5, CC BY 4.0, Wikimedia Commons."
+        },
+        "answer": "b"
+    },
+    {
+        "key": "g1_06",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 3,
+        "age_scope": "0-13,14-18",
+        "title": "Web image · Tulip garden",
+        "prompt": "Which image was made with AI?",
+        "explanation": "Mount Fuji, a pagoda, traditional houses and tulips in one frame: every cliche packed together. The real photo shows an ordinary tulip field and a windmill. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_8023e1f32a0e.webp",
+                "b": "/assets/media/game1/img_2b50301e2989.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: ほくなん, Public domain, Wikimedia Commons. AI image: Leonardo AI, Public domain, Wikimedia Commons."
+        },
+        "answer": "b"
+    },
+    {
+        "key": "g1_07",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 4,
+        "age_scope": "all",
+        "title": "Crater Marks · Round 8",
+        "prompt": "Which image comes from a verified photo source?",
+        "explanation": "An image can look realistic or flawless, but that alone does not prove where it came from. Check the publisher, run a reverse image search and look for Content Credentials or a provenance record if there is one.",
+        "public": {
+            "images": {
+                "photo": "/assets/media/game1/img_6ef347d36b58.webp",
+                "ai": "/assets/media/game1/img_b9e2ae090031.webp"
+            },
+            "credit": "Photo: scikit-image sample data, sourced from NASA; synthetic counterpart: created for this project with OpenAI ImageGen.",
+            "action_tip": "Whether an image is true and how it was made are two different questions; check the context separately.",
+            "options": [
+                {
+                    "id": "photo",
+                    "text": "Source photo"
+                },
+                {
+                    "id": "ai",
+                    "text": "AI-generated"
+                }
+            ]
+        },
+        "answer": "photo"
+    },
+    {
+        "key": "g1_08",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 4,
+        "age_scope": "all",
+        "title": "Before Dawn · Round 10",
+        "prompt": "Which image comes from a verified photo source?",
+        "explanation": "An image can look realistic or flawless, but that alone does not prove where it came from. Check the publisher, run a reverse image search and look for Content Credentials or a provenance record if there is one.",
+        "public": {
+            "images": {
+                "photo": "/assets/media/game1/img_20aaed48c421.webp",
+                "ai": "/assets/media/game1/img_86ae44218f5a.webp"
+            },
+            "credit": "Photo: scikit-image sample data, sourced from NASA; synthetic counterpart: created for this project with OpenAI ImageGen.",
+            "action_tip": "Whether an image is true and how it was made are two different questions; check the context separately.",
+            "options": [
+                {
+                    "id": "photo",
+                    "text": "Source photo"
+                },
+                {
+                    "id": "ai",
+                    "text": "AI-generated"
+                }
+            ]
+        },
+        "answer": "photo"
+    },
+    {
+        "key": "g1_09",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 4,
+        "age_scope": "all",
+        "title": "Star Field · Round 12",
+        "prompt": "Which image comes from a verified photo source?",
+        "explanation": "An image can look realistic or flawless, but that alone does not prove where it came from. Check the publisher, run a reverse image search and look for Content Credentials or a provenance record if there is one.",
+        "public": {
+            "images": {
+                "photo": "/assets/media/game1/img_6bab7b2c95a7.webp",
+                "ai": "/assets/media/game1/img_e4b3d0c2c478.webp"
+            },
+            "credit": "Photo: scikit-image sample data, sourced from NASA; synthetic counterpart: created for this project with OpenAI ImageGen.",
+            "action_tip": "Whether an image is true and how it was made are two different questions; check the context separately.",
+            "options": [
+                {
+                    "id": "photo",
+                    "text": "Source photo"
+                },
+                {
+                    "id": "ai",
+                    "text": "AI-generated"
+                }
+            ]
+        },
+        "answer": "photo"
+    },
+    {
+        "key": "g1_10",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 4,
+        "age_scope": "14-18,19-25,26-30,31-40,41-49,50+",
+        "title": "Web image · Hedgehog",
+        "prompt": "Which image was made with AI?",
+        "explanation": "In the AI image the spines are too neat and clean and the background is blurred like a studio shot; the real photo has asphalt, dust and natural mess. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_7129c2611161.webp",
+                "b": "/assets/media/game1/img_abda127d7a2d.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: Calle Eklund/V-wolf, CC BY-SA 3.0, Wikimedia Commons. AI image: FLUX.1 [schnell]; prompted by Emdosis, Public domain, Wikimedia Commons."
+        },
+        "answer": "b"
+    },
+    {
+        "key": "g1_11",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 4,
+        "age_scope": "14-18,19-25,26-30,31-40,41-49,50+",
+        "title": "Web image · Seaside hotel",
+        "prompt": "Which image is a real photo?",
+        "explanation": "The palace-like hotel in the AI image is perfectly lit, like a postcard; the real photo is ordinary, hazy and imperfectly framed. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_b76a23e90aca.webp",
+                "b": "/assets/media/game1/img_c828b0b311f7.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: Ben Brooksbank, CC BY-SA 2.0, Wikimedia Commons. AI image: Dennis Sylvester Hurd, CC BY 4.0, Wikimedia Commons."
+        },
+        "answer": "a"
+    },
+    {
+        "key": "g1_12",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 4,
+        "age_scope": "14-18,19-25,26-30,31-40,41-49,50+",
+        "title": "Web image · River valley",
+        "prompt": "Which image is a real photo?",
+        "explanation": "In the AI image every element (cabin, river, rocks) looks carefully placed and the light falls evenly everywhere; the small mark in the bottom-right corner is also a clue. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_223ad69215a5.webp",
+                "b": "/assets/media/game1/img_e39b762e1a8a.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: Daniel Case, CC BY-SA 3.0, Wikimedia Commons. AI image: Imagen 4.0, Public domain, Wikimedia Commons."
+        },
+        "answer": "b"
+    },
+    {
+        "key": "g1_13",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 4,
+        "age_scope": "14-18,19-25,26-30,31-40,41-49,50+",
+        "title": "Web image · Grilled chicken salad",
+        "prompt": "Which image is a real photo?",
+        "explanation": "In the AI image the food, drinks and background are over-vivid, like an advert; the real photo shows an ordinary restaurant plate on a paper placemat. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_b562e563b14f.webp",
+                "b": "/assets/media/game1/img_a0fc2e87f0e2.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: Prayitno / Thank you for (12 millions +) view from Los Angeles, USA, CC BY 2.0, Wikimedia Commons. AI image: Dennis Sylvester Hurd, CC0, Wikimedia Commons."
+        },
+        "answer": "a"
+    },
+    {
+        "key": "g1_14",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 4,
+        "age_scope": "14-18,19-25,26-30,31-40,41-49,50+",
+        "title": "Web image · Green apple",
+        "prompt": "Which image is a real photo?",
+        "explanation": "The single apple is softly lit and flawless, like a still-life painting; in the real photo the apples in the basket have spots, bruises and different sizes. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_f28672633d28.webp",
+                "b": "/assets/media/game1/img_82c293b1a463.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: George Chernilevsky, Public domain, Wikimedia Commons. AI image: Midjourney; prompted by The masketta man, Public domain, Wikimedia Commons."
+        },
+        "answer": "b"
+    },
+    {
+        "key": "g1_15",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 4,
+        "age_scope": "14-18,19-25,26-30,31-40,41-49,50+",
+        "title": "Web image · Vegetable chips",
+        "prompt": "Which image was made with AI?",
+        "explanation": "In the AI image the colours are too bright and the ingredients around the bowl are crowded for no reason; the real close-up has natural oil shine and broken pieces. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_438080ef7dfd.webp",
+                "b": "/assets/media/game1/img_a3a6bd2b80e4.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: Mx. Granger, CC0, Wikimedia Commons. AI image: Piersey, CC BY 2.0, Wikimedia Commons."
+        },
+        "answer": "b"
+    },
+    {
+        "key": "g1_16",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Web image · Chocolate donut",
+        "prompt": "Which image was made with AI?",
+        "explanation": "Both look real. In the AI image the sprinkles are scattered too evenly and the light is flawless, like a studio advert; with so few clues, checking the source is a must. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_080bd6ab72c0.webp",
+                "b": "/assets/media/game1/img_2c56bb7a5049.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: Kiran Foster from no fixed abode, New Zealand, CC BY 2.0, Wikimedia Commons. AI image: Bango Renders, CC0, Wikimedia Commons."
+        },
+        "answer": "a"
+    },
+    {
+        "key": "g1_17",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Web image · Dumpling soup",
+        "prompt": "Which image was made with AI?",
+        "explanation": "The AI image copies an ordinary phone photo; the dumplings and the soup surface are a bit too smooth. When images are this realistic, research the source instead of trusting your eyes. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_55e6f8d4532f.webp",
+                "b": "/assets/media/game1/img_db73d84555b2.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: NeoBatfreak, CC BY-SA 4.0, Wikimedia Commons. AI image: Author: Perchance AI; prompted by John Doe, Public domain, Wikimedia Commons."
+        },
+        "answer": "a"
+    },
+    {
+        "key": "g1_18",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Web image · Gift package",
+        "prompt": "Which image is a real photo?",
+        "explanation": "Even the \"badly wrapped\" gift in the AI image is too neat: the tape edges and polka dots repeat perfectly. In the real photo the ribbon is a mess and the light is dim. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_bba9b7ce25f2.webp",
+                "b": "/assets/media/game1/img_7e2071fa2e7c.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: Loneshieling, CC BY-SA 4.0, Wikimedia Commons. AI image: chatgpt, Public domain, Wikimedia Commons."
+        },
+        "answer": "a"
+    },
+    {
+        "key": "g1_19",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Web image · Mountain lake view",
+        "prompt": "Which image is a real photo?",
+        "explanation": "Both look like real landscape photos. In the AI image the ridges and lake colour are postcard-perfect; in the real photo the snow, shadows and mist are uneven. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_af530415fbb6.webp",
+                "b": "/assets/media/game1/img_c358ee48714b.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: Frankemann, CC BY-SA 4.0, Wikimedia Commons. AI image: Gemini, Public domain, Wikimedia Commons."
+        },
+        "answer": "b"
+    },
+    {
+        "key": "g1_20",
+        "game_id": 1,
+        "kind": "ai",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Web image · Beach huts",
+        "prompt": "Which image was made with AI?",
+        "explanation": "The AI image copies a busy beach photo very well, but the writing on the signs is unreadable and the huts are almost identical. Zooming in on text is a good tip. To be sure, find the source: do a reverse image search and check the first publisher and any Content Credentials.",
+        "public": {
+            "images": {
+                "a": "/assets/media/game1/img_0d72ffd6b9ad.webp",
+                "b": "/assets/media/game1/img_726373476d0b.webp"
+            },
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Image A"
+                },
+                {
+                    "id": "b",
+                    "text": "Image B"
+                }
+            ],
+            "credit": "Real photo: Gzzz, CC BY-SA 3.0, Wikimedia Commons. AI image: gemini, Public domain, Wikimedia Commons."
+        },
+        "answer": "a"
+    }
+]

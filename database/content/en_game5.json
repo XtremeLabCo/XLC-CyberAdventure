@@ -1,0 +1,1061 @@
+[
+    {
+        "key": "g5_01",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Delivery Message",
+        "prompt": "What should Alex do?",
+        "explanation": "Scammers can use public posts to make messages look personal. Check with the company through its official channel.",
+        "public": {
+            "post": "Alex posts on social media about his latest order. Right after, he gets a message asking for his card details.",
+            "author": "Alex",
+            "handle": "@example_profile",
+            "chapter": "Digital Footprint / 03",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Send his card details"
+                },
+                {
+                    "id": "b",
+                    "text": "Open the link in the message right away"
+                },
+                {
+                    "id": "c",
+                    "text": "Check with the company through its official channel"
+                }
+            ]
+        },
+        "answer": "c"
+    },
+    {
+        "key": "g5_02",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "New Follower",
+        "prompt": "What should she do?",
+        "explanation": "Never send sensitive information to an account whose identity you can't confirm.",
+        "public": {
+            "post": "Mira sees a request for private information sent to her from an account she doesn't know.",
+            "author": "Mira",
+            "handle": "@example_profile",
+            "chapter": "Digital Footprint / 06",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Send her personal details"
+                },
+                {
+                    "id": "b",
+                    "text": "Share her password"
+                },
+                {
+                    "id": "c",
+                    "text": "Give no information without checking the request"
+                }
+            ]
+        },
+        "answer": "c"
+    },
+    {
+        "key": "g5_03",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Personal Quiz",
+        "prompt": "Which decision is safe?",
+        "explanation": "Some of these questions are also used to recover accounts, so the answers can help someone break in.",
+        "public": {
+            "post": "A fun quiz on social media asks for your childhood address and your mother's maiden name.",
+            "author": "Alex",
+            "handle": "@example_profile",
+            "chapter": "Digital Footprint / 09",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Writing the answers publicly"
+                },
+                {
+                    "id": "b",
+                    "text": "Giving the details to an app that collects them"
+                },
+                {
+                    "id": "c",
+                    "text": "Not sharing private details"
+                }
+            ]
+        },
+        "answer": "c"
+    },
+    {
+        "key": "g5_04",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Tag Request",
+        "prompt": "Which is the safer choice?",
+        "explanation": "A stranger asking for the people around you may use them to send more fake messages. Refuse the request, and block and report the account if needed.",
+        "public": {
+            "post": "A stranger asks you to tag people connected to your profile.",
+            "author": "Ava",
+            "handle": "@example_profile",
+            "chapter": "Digital Footprint / 12",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Tagging everyone"
+                },
+                {
+                    "id": "b",
+                    "text": "Sending a list of contacts"
+                },
+                {
+                    "id": "c",
+                    "text": "Refusing; not showing a stranger the people around you"
+                }
+            ]
+        },
+        "answer": "c"
+    },
+    {
+        "key": "g5_05",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "AI Voice Message",
+        "prompt": "What is the right step?",
+        "explanation": "AI tools can make faking a voice easy. When there is pressure to hurry and keep it secret, check through a separate channel.",
+        "public": {
+            "post": "A voice that sounds like a family member asks for money urgently and tells you not to tell anyone.",
+            "author": "Alex",
+            "handle": "@example_profile",
+            "chapter": "Digital Footprint / 15",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Send it right away"
+                },
+                {
+                    "id": "b",
+                    "text": "Call back on a known number and check with something only you both know"
+                },
+                {
+                    "id": "c",
+                    "text": "Share ID details too"
+                }
+            ]
+        },
+        "answer": "b"
+    },
+    {
+        "key": "g5_06",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Quiz App",
+        "prompt": "How should you decide?",
+        "explanation": "Permissions should match what the app actually does. Refuse access it doesn't need, and consider not using the app at all.",
+        "public": {
+            "post": "A personality quiz asks for access to your contacts, location and microphone all at once.",
+            "author": "Ava",
+            "handle": "@example_profile",
+            "chapter": "Digital Footprint / 18",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Allow them all"
+                },
+                {
+                    "id": "b",
+                    "text": "Compare the permissions with what the app does and refuse the unneeded ones"
+                },
+                {
+                    "id": "c",
+                    "text": "Upload your friends' details"
+                }
+            ]
+        },
+        "answer": "b"
+    },
+    {
+        "key": "g5_07",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "14-18",
+        "title": "New job post · 14",
+        "prompt": "Which step is right?",
+        "explanation": "A staff badge shows a photo, name, number and barcode together; someone could copy it or use it to get into the building. Hiding only the number is not enough. Share without showing the badge at all.",
+        "public": {
+            "author": "Ethan",
+            "handle": "@ethan_example",
+            "post": "Ethan is about to share a photo for his new job; his staff badge number can be read in it.",
+            "options": [
+                {
+                    "id": "s3",
+                    "text": "Share a photo where the badge isn't visible at all"
+                },
+                {
+                    "id": "s2",
+                    "text": "Upload both sides of the badge"
+                },
+                {
+                    "id": "s4",
+                    "text": "Cover only the badge number and share"
+                },
+                {
+                    "id": "s1",
+                    "text": "Post his login details"
+                }
+            ],
+            "story_type": "tek_adimli_senaryo",
+            "share_mode": "draft"
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g5_08",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "GitHub screenshot · 16",
+        "prompt": "What is the safest move here?",
+        "explanation": "A secret key that was exposed must be replaced, even if the post is deleted, because someone may already have copied it.",
+        "public": {
+            "author": "Ben",
+            "handle": "@ben_example",
+            "post": "Ben accidentally shows an API key (a secret access key) in a screenshot of his code.",
+            "options": [
+                {
+                    "id": "s3",
+                    "text": "Just delete the photo"
+                },
+                {
+                    "id": "s1",
+                    "text": "Cancel and replace the key, and remove the image"
+                },
+                {
+                    "id": "s2",
+                    "text": "Write the key in the caption"
+                }
+            ],
+            "story_type": "tek_adimli_senaryo"
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g5_09",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Meeting link · 17",
+        "prompt": "What is the safest approach?",
+        "explanation": "A link shared publicly may already be in other people's hands; deleting the post doesn't undo that. Remove the link, create a new link or password for the meeting, and send it only to invited people.",
+        "public": {
+            "author": "Alice",
+            "handle": "@alice_example",
+            "post": "Alice adds the invite link for a private meeting to a public post.",
+            "options": [
+                {
+                    "id": "s3",
+                    "text": "Remove the link from the post, create a new one and send it only to invited people"
+                },
+                {
+                    "id": "s2",
+                    "text": "Leave it public"
+                },
+                {
+                    "id": "s4",
+                    "text": "Just deleting the post is enough; keep using the same link"
+                },
+                {
+                    "id": "s1",
+                    "text": "Post the meeting code separately"
+                }
+            ],
+            "story_type": "tek_adimli_senaryo"
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g5_10",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "50+",
+        "title": "Fake help request · 20",
+        "prompt": "What is the safest behaviour?",
+        "explanation": "Remember that accounts of people you know can be taken over too. Check by calling them on a number you already know.",
+        "public": {
+            "author": "Harold",
+            "handle": "@harold_example",
+            "post": "Harold gets an unexpected message from a relative's account asking for money.",
+            "options": [
+                {
+                    "id": "s3",
+                    "text": "Check by calling the person on a known number"
+                },
+                {
+                    "id": "s1",
+                    "text": "Send a bank transfer right away"
+                },
+                {
+                    "id": "s2",
+                    "text": "Enter card details on the link in the message"
+                }
+            ],
+            "story_type": "tek_adimli_senaryo"
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g5_11",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "School badge · School name",
+        "prompt": "What should Daisy do before posting the photo?",
+        "explanation": "The school name on the uniform tells a stranger where to find you every day. Turning off location isn't enough, because the clue is in the photo. Pick a shot that hides the school, or share it only with people you know.",
+        "public": {
+            "author": "Daisy",
+            "handle": "@daisy_draws",
+            "post": "Daisy took a mirror selfie in her new school uniform. The school's name and badge are big and clear on the chest. She wants to post it on her public account with the caption 'First day!'.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Post it; everyone knows the school name anyway"
+                },
+                {
+                    "id": "s2",
+                    "text": "Turn off the location tag and post the photo as it is"
+                },
+                {
+                    "id": "s3",
+                    "text": "Pick a photo where the badge doesn't show, or send it only to her family"
+                },
+                {
+                    "id": "s4",
+                    "text": "Write the school name in the caption too, so friends can find her"
+                }
+            ],
+            "share_mode": "draft"
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g5_12",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "Nearby players · Game location",
+        "prompt": "What should Kevin do?",
+        "explanation": "Live location lets anyone in the game find you in real life, and you can't know who a player really is. Changing your nickname doesn't hide your location. Turn off location sharing and check the settings with an adult you trust.",
+        "public": {
+            "author": "Kevin",
+            "handle": "@kevin_blocks",
+            "post": "Kevin's map game has a feature called 'See players near you'. When it's on, the game shows other players how many metres they are from Kevin's home. His friends say: 'Turn it on so we can find each other.'",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Turn the feature off and check the game's location settings with a grown-up"
+                },
+                {
+                    "id": "s2",
+                    "text": "Turn it on only after school and off at home"
+                },
+                {
+                    "id": "s3",
+                    "text": "Leave it on but change his nickname in the game"
+                },
+                {
+                    "id": "s4",
+                    "text": "Turn it on, because everyone in the game is a kid he knows"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g5_13",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "Secret photo request · Stranger",
+        "prompt": "What should Zoe do?",
+        "explanation": "A stranger asking for a photo, offering a gift and saying 'it's a secret' are all danger signs together. Send no photo and don't delete the chat, because adults may need those messages to report it. Tell your family or teacher right away; you did nothing wrong.",
+        "public": {
+            "author": "Zoe",
+            "handle": "@zoe_pencil",
+            "post": "In a game chat, someone Zoe doesn't know writes: 'You play so well! Can you send me a photo of you? I'll send you game coins in return. Don't tell anyone, it's our secret.'",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Send a photo where her face doesn't show"
+                },
+                {
+                    "id": "s2",
+                    "text": "Ask for their photo first, and send hers if they're really a kid"
+                },
+                {
+                    "id": "s3",
+                    "text": "Delete the chat and tell nobody what happened"
+                },
+                {
+                    "id": "s4",
+                    "text": "Not reply, keep the message, and tell a trusted adult right away"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g5_14",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "A friend's message · Screenshot",
+        "prompt": "What should Charlie do?",
+        "explanation": "A private message was written by someone who trusted you; once a screenshot is sent it can't be taken back, and others can save it. Scribbling out the name doesn't help when the whole class knows everyone. Don't share someone's message without their permission.",
+        "public": {
+            "author": "Charlie",
+            "handle": "@charlie_rocket",
+            "post": "Charlie's friend Max wrote in a private message that he got a low grade on a test and is really upset. Charlie is thinking of posting a screenshot of it in the class group chat with 'So funny!'.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Scribble out Max's name and post the screenshot like that"
+                },
+                {
+                    "id": "s2",
+                    "text": "Not share the screenshot; the private message belongs to Max. Support Max instead"
+                },
+                {
+                    "id": "s3",
+                    "text": "Send it only to his three closest friends"
+                },
+                {
+                    "id": "s4",
+                    "text": "Post it in his story; it disappears after 24 hours anyway"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g5_15",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "14-18",
+        "title": "After the concert · Delayed post",
+        "prompt": "What is the best judgement of Ella's plan?",
+        "explanation": "This time the plan is safe: Ella posts after she has left and gives only a general location. The risk comes from sharing a live, detailed location. Controlling timing and detail is enough; there's no need to ban every post.",
+        "public": {
+            "author": "Ella",
+            "handle": "@ella_onstage",
+            "post": "Ella went to a concert at the weekend. She will post the photos after she gets home, not during the concert. As the location tag she will write only the city name; her profile shows no school or home details.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Risky; concert photos should never be posted"
+                },
+                {
+                    "id": "s2",
+                    "text": "Better to post live at the concert; nobody can find her in the crowd"
+                },
+                {
+                    "id": "s3",
+                    "text": "The post is dangerous unless the city name is removed too"
+                },
+                {
+                    "id": "s4",
+                    "text": "Reasonable; a delayed post and a general location don't let anyone find her in the moment"
+                }
+            ],
+            "share_mode": "draft_safe"
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g5_16",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "14-18",
+        "title": "Exam entry slip · Photo",
+        "prompt": "What should Owen share?",
+        "explanation": "The entry slip shows an ID number, barcode and personal details together; these can be used to pretend to be him or for fake 'check your results' traps. Scribbling one field leaves the barcode and the rest, and the details stay valid after the exam. Share the excitement without the slip.",
+        "public": {
+            "author": "Owen",
+            "handle": "@owen_goals",
+            "post": "The day before a big exam, Owen wants to post a photo of his exam entry slip with 'Big day tomorrow!'. The slip shows his name, national ID number, photo, exam room and a barcode.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Post the slip but scribble out only the ID number"
+                },
+                {
+                    "id": "s2",
+                    "text": "Post a photo of the exam building or his study desk instead of the slip"
+                },
+                {
+                    "id": "s3",
+                    "text": "Post the slip only to his close friends list"
+                },
+                {
+                    "id": "s4",
+                    "text": "Post the slip after the exam, when it's no longer useful"
+                }
+            ],
+            "share_mode": "draft"
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g5_17",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "New house key · Photo",
+        "prompt": "What is the best step before posting?",
+        "explanation": "A sharp photo of a key can be enough to cut a copy from its teeth, and the door number shows which door it opens. Hiding only one of them doesn't remove the risk. Share the joy with a shot that shows neither the key nor the address.",
+        "public": {
+            "author": "Mark",
+            "handle": "@mark_newhome",
+            "post": "Mark took a photo holding the key to his new home in front of the door and wants to post it with 'Finally ours!'. The key's teeth are sharp and close up, and the door number is visible behind.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Post the photo to friends only"
+                },
+                {
+                    "id": "s2",
+                    "text": "Pick a shot where the key's teeth and the door number don't show"
+                },
+                {
+                    "id": "s3",
+                    "text": "Crop out the door number and leave the key as it is"
+                },
+                {
+                    "id": "s4",
+                    "text": "As long as there's no location tag, the post is safe"
+                }
+            ],
+            "share_mode": "draft"
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g5_18",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Morning check-in · Routine",
+        "prompt": "What is the best advice for Beth?",
+        "explanation": "Check-ins that look harmless one by one turn into a timetable that shows when the home is empty and where she will be. A private profile is only as safe as its follower list. Dropping live check-ins and posting later breaks the pattern.",
+        "public": {
+            "author": "Beth",
+            "handle": "@beth_mornings",
+            "post": "For three months, Beth has checked in at the same gym at 6:45 every morning, then written 'Off to work!'. Her profile is public and her posts can be read in date order.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Making her profile private is enough on its own"
+                },
+                {
+                    "id": "s2",
+                    "text": "Keep checking in but don't show the time"
+                },
+                {
+                    "id": "s3",
+                    "text": "Stop live check-ins; if she posts, do it after leaving the gym and at irregular times"
+                },
+                {
+                    "id": "s4",
+                    "text": "Post only on weekdays, so nobody can tell she's home at weekends"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g5_19",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Location data · 18",
+        "prompt": "Which check makes sense?",
+        "explanation": "Some photos or sharing platforms can carry hidden location information. Check it before you post.",
+        "public": {
+            "author": "Tom",
+            "handle": "@tom_example",
+            "post": "Tom isn't sure whether the photo he is about to post contains location information.",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Check the photo's hidden location data and the sharing settings"
+                },
+                {
+                    "id": "s2",
+                    "text": "Make the location tag bigger"
+                },
+                {
+                    "id": "s3",
+                    "text": "Add the address"
+                }
+            ],
+            "story_type": "tek_adimli_senaryo",
+            "share_mode": "draft"
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g5_20",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 4,
+        "age_scope": "14-18",
+        "title": "Room tour trend · Background",
+        "prompt": "What should Sophie check before posting the video?",
+        "explanation": "Trends push people to post fast, and a video can be paused frame by frame. Hiding one clue isn't enough: the view shows the building and the timetable shows her hours. Watch the video as a stranger would before posting and remove every clue.",
+        "public": {
+            "author": "Sophie",
+            "handle": "@sophie_diary",
+            "post": "Sophie filmed a video for the viral 'Room tour' trend. It shows the sign on the building opposite through the window, her school timetable on the wall, and a parcel on the desk with her address on it.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "The video is short, so nobody will notice details"
+                },
+                {
+                    "id": "s2",
+                    "text": "Blurring only the address on the parcel is enough"
+                },
+                {
+                    "id": "s3",
+                    "text": "Remove home and routine clues like the window view, timetable and address label, then film again"
+                },
+                {
+                    "id": "s4",
+                    "text": "If she posts at midnight instead of right after filming, the clues stop mattering"
+                }
+            ],
+            "share_mode": "draft"
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g5_21",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 4,
+        "age_scope": "14-18",
+        "title": "Cartoon quiz · Security questions",
+        "prompt": "What is the best decision about this quiz?",
+        "explanation": "First pet's name, birthplace and teacher's name are exactly the security questions used to recover accounts. Writing them in comments or on an unknown site hands them to whoever collects them. Skip the quiz; for security questions use random answers only you know, not the truth.",
+        "public": {
+            "author": "Billy",
+            "handle": "@billy_reads",
+            "post": "A 'Which cartoon character are you?' quiz is going round Billy's feed. Questions: Your first pet's name? The city you were born in? Your first teacher's name? Your favourite colour? To see the result, you must write your answers in the comments.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Not answer; these are the same as account recovery security questions"
+                },
+                {
+                    "id": "s2",
+                    "text": "Answer only the favourite colour question and skip the rest"
+                },
+                {
+                    "id": "s3",
+                    "text": "Enter the answers on the quiz's own site instead of the comments"
+                },
+                {
+                    "id": "s4",
+                    "text": "If everyone's joining in, it's fine; answer for fun"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g5_22",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 4,
+        "age_scope": "14-18",
+        "title": "Video call threat · Blackmail",
+        "prompt": "What should Ben do now?",
+        "explanation": "Paying doesn't end blackmail; it usually leads to more demands. Deleting messages destroys the evidence needed to report it. Stop replying, keep the evidence, tell a trusted adult and report to the platform and the police; the shame belongs to the blackmailer, not you.",
+        "public": {
+            "author": "Ben",
+            "handle": "@ben_runs",
+            "post": "Ben had a video call with someone he met online. Now that person threatens to send an embarrassing screenshot of Ben to his friends and demands money within an hour.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Send the money; the other person promises to delete the image"
+                },
+                {
+                    "id": "s2",
+                    "text": "Not pay, delete all the messages and close his account right away"
+                },
+                {
+                    "id": "s3",
+                    "text": "Keep talking to calm them down and try to bargain"
+                },
+                {
+                    "id": "s4",
+                    "text": "Not pay, stop replying, save the messages, tell a trusted adult and report the account"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g5_23",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Reflection in the glass · Office selfie",
+        "prompt": "What should he do before posting the photo?",
+        "explanation": "Reflections and background details can be read when a high-resolution photo is zoomed in; hiding only the note doesn't protect customer data. Filters or closed groups don't stop screenshots. Zoom in and scan the shot before posting, and retake it with the screen off if needed.",
+        "public": {
+            "author": "Tom",
+            "handle": "@tom_atwork",
+            "post": "Tom took a selfie at his desk in the office. The glass partition behind him reflects his monitor, and the customer list can be read. A sticky note on the edge of the screen shows the guest Wi-Fi password.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Blur the sticky note; the rest is fine"
+                },
+                {
+                    "id": "s2",
+                    "text": "Zoom in and scan the reflections and background; retake a shot where the screen and password don't show"
+                },
+                {
+                    "id": "s3",
+                    "text": "Make the photo black and white so details can't be read"
+                },
+                {
+                    "id": "s4",
+                    "text": "Post it only in a closed group with his coworkers"
+                }
+            ],
+            "share_mode": "draft"
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g5_24",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Urgent warning chain · Fact-check",
+        "prompt": "What should Grace do with this message?",
+        "explanation": "Urgency and no source or date are typical signs of false information; old photos or ones from elsewhere are often passed around as new events. Even adding 'unverified' still spreads it and grows the panic. First check the official source and when the photo was first published.",
+        "public": {
+            "author": "Grace",
+            "handle": "@grace_news",
+            "post": "A message in the neighbourhood group: 'BREAKING! Chemicals got into the tap water, don't drink it, forward to everyone!' Below it is a photo of a flooded street. There is no source, date or agency name.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Forward it just in case; even if it's false, it harms no one"
+                },
+                {
+                    "id": "s2",
+                    "text": "Forward it with a note saying 'not confirmed'"
+                },
+                {
+                    "id": "s3",
+                    "text": "Before forwarding, check official channels and search the photo with a reverse image search to see its date"
+                },
+                {
+                    "id": "s4",
+                    "text": "Accept the news is true because the photo looks real"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g5_25",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "First school day video · A child's footprint",
+        "prompt": "What is the most balanced choice for Paula?",
+        "explanation": "A child's full name, school and birth date together create a lasting digital footprint that can later feed identity fraud and bullying. A video of him crying may be something he wouldn't agree to when he's older. Remove identifying details, narrow the audience and think about how he'll feel later.",
+        "public": {
+            "author": "Paula",
+            "handle": "@paula_mom",
+            "post": "Paula wants to post a video of her 6-year-old son crying on his first day of school on her public account. The caption gives his full name, the school's name and his birth date.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "If she makes her profile private, she can share everything"
+                },
+                {
+                    "id": "s2",
+                    "text": "Remove only the birth date and post the video"
+                },
+                {
+                    "id": "s3",
+                    "text": "Remove only the school name and post it publicly"
+                },
+                {
+                    "id": "s4",
+                    "text": "Remove identifying details, pick a moment that isn't embarrassing and share only with close family"
+                }
+            ],
+            "share_mode": "draft"
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g5_26",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 4,
+        "age_scope": "50+",
+        "title": "Nephew's urgent call · Hijacked account",
+        "prompt": "What should Nancy do?",
+        "explanation": "If the account was taken over, replies in posts and comments may come from the scammer too, so asking the same account proves nothing. Urgency and someone else's bank account are typical signs. Call your relative or their family on a number you already know, don't share the post and report it to the platform.",
+        "public": {
+            "author": "Nancy",
+            "handle": "@nancy_garden",
+            "post": "A public post from the account of Nancy's nephew Ethan: 'I had an accident and my phone is broken! I need an urgent payment at the hospital, send money to this IBAN / bank account number, please share!' In the comments, many people she knows wrote 'Get well soon'.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Call Ethan or his family on a number she knows to check; not share the post or send money"
+                },
+                {
+                    "id": "s2",
+                    "text": "Send a small amount; if it's a lie, the loss is small"
+                },
+                {
+                    "id": "s3",
+                    "text": "Share the post so more people can help"
+                },
+                {
+                    "id": "s4",
+                    "text": "Comment under the post and ask Ethan if it's really him"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g5_27",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 4,
+        "age_scope": "50+",
+        "title": "Pension screenshot · Chain message",
+        "prompt": "What is the right thing for Henry to do?",
+        "explanation": "Real payments never require sending a screenshot of your banking app to a phone number or forwarding a message. The name, account and balance in the screenshot are used for targeted scam calls, and forwarding spreads the trap. Check payments only through the agency's official channel.",
+        "public": {
+            "author": "Henry",
+            "handle": "@henry_retired",
+            "post": "A chain message in a retirees' group: 'Extra payment has started! To show you qualify, send a screenshot of the pension screen in your banking app to this number and forward this message to 10 people.' Henry's screen shows his account number and balance.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Scribble out the account number and send the screenshot"
+                },
+                {
+                    "id": "s2",
+                    "text": "Not send the screenshot or forward the message; check the payment through the official agency's own channel"
+                },
+                {
+                    "id": "s3",
+                    "text": "Not send the screenshot, but forward the message to 10 people"
+                },
+                {
+                    "id": "s4",
+                    "text": "First see whether other retirees in the group sent theirs"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g5_28",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Harmless pieces · Profile building",
+        "prompt": "What risk do these posts create together?",
+        "explanation": "Attackers combine small pieces from public sources to answer account recovery questions and write convincing personal messages. Deleting one detail doesn't break up the profile. Review old posts, narrow your audiences and use random answers, not real facts, for security questions.",
+        "public": {
+            "author": "Kyle",
+            "handle": "@kyle_memories",
+            "post": "Kyle's posts from the past year: his dog Snowball's birthday, a memory from the town where he was born, 15 years since his high school graduation, a celebration tagging his mother with her maiden name, and the name of his new workplace.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Each post is harmless alone, so there's no extra risk"
+                },
+                {
+                    "id": "s2",
+                    "text": "Put together, they give a full profile for security question answers and convincing targeted phishing"
+                },
+                {
+                    "id": "s3",
+                    "text": "The risk only exists if the posts have location tags"
+                },
+                {
+                    "id": "s4",
+                    "text": "The risk is limited to the workplace name; deleting it is enough"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g5_29",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Uncle's video · Fake video",
+        "prompt": "What is Laura's best step?",
+        "explanation": "Voices and faces can now be cloned from a few seconds of recording; lips not matching the words and an unusual money request are key signs. Even reposting it with a 'fake' note spreads the video further. Check with the person through a known channel, report the content and warn the family without forwarding it.",
+        "public": {
+            "author": "Laura",
+            "handle": "@laura_family",
+            "post": "A video is spreading in the family group in which Laura's uncle urges people to invest in a cryptocurrency. The voice and face look very like him, but his lips don't quite match the words. The video has been shared thousands of times in other groups.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Call her uncle on a number she knows to check; report it to the platform without forwarding and briefly warn the family"
+                },
+                {
+                    "id": "s2",
+                    "text": "Post the video on her own account with 'This is fake!' so everyone sees"
+                },
+                {
+                    "id": "s3",
+                    "text": "Accept it as real because the voice sounds like her uncle"
+                },
+                {
+                    "id": "s4",
+                    "text": "Download the video, send it to her uncle and ask him to post an explanation"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g5_30",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "New finance manager · Job announcement",
+        "prompt": "What is the best judgement about this post?",
+        "explanation": "New finance staff don't yet know company processes, so they are targets for 'urgent, secret payment from the CEO' requests; names and supplier details make these messages believable. A deleted post may already be copied. Limit the details and confirm every payment request through a channel you already know.",
+        "public": {
+            "author": "Sean",
+            "handle": "@sean_finance",
+            "post": "Sean posted on his professional network: 'Today I started as finance manager at my new company! Thanks to our CEO Alison and our payments team.' The post tags the team members' names and the supplier system they use.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "It's a professional network, so the post is completely risk-free"
+                },
+                {
+                    "id": "s2",
+                    "text": "The only risk is that his old employer might be upset"
+                },
+                {
+                    "id": "s3",
+                    "text": "The post helps scammers pretend to be managers; he should share fewer details and check urgent payment requests through a known channel"
+                },
+                {
+                    "id": "s4",
+                    "text": "If he deletes the post, the risk is fully gone and nothing else is needed"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g5_31",
+        "game_id": 5,
+        "kind": "story",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Sunset without location · Metadata",
+        "prompt": "What is the best judgement about this post?",
+        "explanation": "The right checks are done: the GPS data was removed and confirmed, the photo has no home or routine clues, and it is posted after the event. Extra steps wouldn't hurt but aren't needed. Safe sharing means doing the right checks, not banning everything.",
+        "public": {
+            "author": "Megan",
+            "handle": "@megan_coast",
+            "post": "Megan is about to post a sunset photo she took last week on a public beach. On the sharing screen, 'Include location' is off, and she checked with a metadata viewer that the GPS field is empty. The shot shows only sea and sky.",
+            "story_type": "tek_adimli_senaryo",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "She shouldn't post; platforms always restore deleted location data"
+                },
+                {
+                    "id": "s2",
+                    "text": "Post only to close friends; a public photo is always risky"
+                },
+                {
+                    "id": "s3",
+                    "text": "Take a screenshot first and post that; the original file is never safe"
+                },
+                {
+                    "id": "s4",
+                    "text": "She can post it; the location data is removed, nothing in the shot identifies her, and the post is delayed"
+                }
+            ],
+            "share_mode": "draft_safe"
+        },
+        "answer": "s4"
+    }
+]

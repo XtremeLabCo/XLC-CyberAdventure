@@ -1,0 +1,1169 @@
+[
+    {
+        "key": "g4_01",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Shield Mission 3",
+        "prompt": "Which extra security step fits best?",
+        "explanation": "Two-step verification protects your account with an extra layer, even if someone learns your password.",
+        "public": {
+            "stage": "kalkan",
+            "icon": "🔑",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Two-step verification"
+                },
+                {
+                    "id": "b",
+                    "text": "Sticking the password on a note"
+                },
+                {
+                    "id": "c",
+                    "text": "Sharing it publicly"
+                }
+            ]
+        },
+        "answer": "a"
+    },
+    {
+        "key": "g4_02",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Shield Mission 6",
+        "prompt": "You get a suspicious sign-in alert. What should you do?",
+        "explanation": "Do not use the link in the suspicious message. Check your account yourself in the official app.",
+        "public": {
+            "stage": "kalkan",
+            "icon": "🛡️",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Check the account another way, on your own"
+                },
+                {
+                    "id": "b",
+                    "text": "Click every link in the email"
+                },
+                {
+                    "id": "c",
+                    "text": "Share the verification code"
+                }
+            ]
+        },
+        "answer": "a"
+    },
+    {
+        "key": "g4_03",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Shield Mission 9",
+        "prompt": "You hear news about a data breach. What do you do?",
+        "explanation": "Change the leaked password, and change it anywhere else you used the same one.",
+        "public": {
+            "stage": "kalkan",
+            "icon": "🔐",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Change that password, and change it anywhere else you reused it"
+                },
+                {
+                    "id": "b",
+                    "text": "Do nothing"
+                },
+                {
+                    "id": "c",
+                    "text": "Send your password to everyone"
+                }
+            ]
+        },
+        "answer": "a"
+    },
+    {
+        "key": "g4_04",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Shield Mission 12",
+        "prompt": "Which choice protects an account best?",
+        "explanation": "A unique password together with two-step verification works much better than either one alone.",
+        "public": {
+            "stage": "kalkan",
+            "icon": "⚡",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "A short password"
+                },
+                {
+                    "id": "b",
+                    "text": "A long unique password plus two-step verification"
+                },
+                {
+                    "id": "c",
+                    "text": "Only a username"
+                }
+            ]
+        },
+        "answer": "b"
+    },
+    {
+        "key": "g4_05",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Shield Mission 15",
+        "prompt": "A site asks you to change your password every 30 days. What is the safe habit?",
+        "explanation": "Frequent changes for no reason push people into predictable patterns. Change it right away if there is a breach or someone else got in.",
+        "public": {
+            "stage": "kalkan",
+            "icon": "🔑",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Adding a predictable number that counts up"
+                },
+                {
+                    "id": "b",
+                    "text": "Keeping a unique password; changing it at once after a breach"
+                },
+                {
+                    "id": "c",
+                    "text": "Emailing the password to yourself"
+                }
+            ]
+        },
+        "answer": "b"
+    },
+    {
+        "key": "g4_06",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Shield Mission 18",
+        "prompt": "You notice you use the same password on two accounts. What is the best step?",
+        "explanation": "Reusing a password lets a breach at one service spread to your other accounts. Every account needs its own password.",
+        "public": {
+            "stage": "kalkan",
+            "icon": "🛡️",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Leave it on both"
+                },
+                {
+                    "id": "b",
+                    "text": "Create a new, different password for each account"
+                },
+                {
+                    "id": "c",
+                    "text": "Add 1 to the end of one of them"
+                }
+            ]
+        },
+        "answer": "b"
+    },
+    {
+        "key": "g4_07",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "14-18",
+        "title": "Passkey choice · 14",
+        "prompt": "If a service supports it, why is a passkey a good option?",
+        "explanation": "When set up properly, passkeys give strong protection against fake login pages.",
+        "public": {
+            "icon": "🛡️",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "It can offer a sign-in built to resist phishing"
+                },
+                {
+                    "id": "s3",
+                    "text": "It types the same password everywhere"
+                },
+                {
+                    "id": "s2",
+                    "text": "It emails your login details"
+                }
+            ],
+            "interaction_hint": "Example passwords and account situations are made up; never type your real password."
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g4_08",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Password reset address · 16",
+        "prompt": "You are waiting for a password reset link. What is the safest approach?",
+        "explanation": "Make sure the link really belongs to the service. Starting the reset yourself in the app you know is safest.",
+        "public": {
+            "icon": "🛡️",
+            "options": [
+                {
+                    "id": "s3",
+                    "text": "Clicking without checking the address"
+                },
+                {
+                    "id": "s2",
+                    "text": "Starting the password reset from the app you know"
+                },
+                {
+                    "id": "s1",
+                    "text": "Replying with your login details"
+                }
+            ],
+            "interaction_hint": "Example passwords and account situations are made up; never type your real password."
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g4_09",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Admin account · 17",
+        "prompt": "What is the best way to secure an account with high-level access?",
+        "explanation": "Accounts with special access need personal login details and strong two-step verification.",
+        "public": {
+            "icon": "🛡️",
+            "options": [
+                {
+                    "id": "s3",
+                    "text": "Sharing the password in the team chat"
+                },
+                {
+                    "id": "s2",
+                    "text": "All admins using the same password"
+                },
+                {
+                    "id": "s1",
+                    "text": "Using unique login details and strong two-step verification"
+                }
+            ],
+            "interaction_hint": "Example passwords and account situations are made up; never type your real password."
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g4_10",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "50+",
+        "title": "Family account · 20",
+        "prompt": "Family members manage different accounts with one password. What is safer?",
+        "explanation": "Use a unique password for each account and give each person only the access they need.",
+        "public": {
+            "icon": "🛡️",
+            "options": [
+                {
+                    "id": "s2",
+                    "text": "Using separate unique passwords for the accounts"
+                },
+                {
+                    "id": "s3",
+                    "text": "Sharing the same password with everyone"
+                },
+                {
+                    "id": "s1",
+                    "text": "Writing the password on the TV screen"
+                }
+            ],
+            "interaction_hint": "Example passwords and account situations are made up; never type your real password."
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g4_11",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "Signed in at school · Session safety",
+        "prompt": "You signed in to your game account in the school computer lab and the lesson is over. The computer asks 'Remember me?'. What do you do?",
+        "explanation": "On a shared computer, 'Remember me' lets the next person get into your account. Say no, sign out when you finish, and close the browser.",
+        "public": {
+            "icon": "🖥️",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "I say no, sign out when I finish, and close the browser"
+                },
+                {
+                    "id": "s2",
+                    "text": "I say yes, so I don't have to type my password tomorrow"
+                },
+                {
+                    "id": "s3",
+                    "text": "I say yes but turn off the screen, so nobody sees"
+                },
+                {
+                    "id": "s4",
+                    "text": "I close the tab, that is enough"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g4_12",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "Free gems page · Game account",
+        "prompt": "Under a video there is a link: 'Type your username and password, get 5000 free gems'. What do you do?",
+        "explanation": "Games never ask for your password on another page to give you free items. These pages steal accounts; don't open the link and show it to a grown-up.",
+        "public": {
+            "icon": "🎮",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "I type only my username, not my password"
+                },
+                {
+                    "id": "s2",
+                    "text": "My friend can try first; if the gems arrive, I'll do it too"
+                },
+                {
+                    "id": "s3",
+                    "text": "I don't open the link, don't type my password, and show a grown-up"
+                },
+                {
+                    "id": "s4",
+                    "text": "I type my old password, I don't use it anymore anyway"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g4_13",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "A friend saw your password · Change password",
+        "prompt": "While you signed in to your game account, your friend watched your keyboard, saw your password and said it out loud, laughing. What is the best thing to do?",
+        "explanation": "A password someone else knows is not secret anymore; even a friend could get into your account. With a grown-up, change it to a new, long password.",
+        "public": {
+            "icon": "🔑",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "It's my friend, so it's fine. I carry on"
+                },
+                {
+                    "id": "s2",
+                    "text": "With a grown-up, I change my password to a new one right away"
+                },
+                {
+                    "id": "s3",
+                    "text": "I add a number to the end of my password, that is enough"
+                },
+                {
+                    "id": "s4",
+                    "text": "I ask my friend to forget my password"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g4_14",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "Teacher's first sign-in rule · School account",
+        "prompt": "Your teacher says: 'The first time you sign in to your school account, create your own password and don't tell anyone.' What do you think of this?",
+        "explanation": "This is a safe, correct request: swapping the temporary password for your own secret one protects your account. You don't need to tell anyone your password, not even your teacher.",
+        "public": {
+            "icon": "🏫",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "It's suspicious; the teacher might want to know my password"
+                },
+                {
+                    "id": "s2",
+                    "text": "No need, I'll keep using the temporary password the teacher gave"
+                },
+                {
+                    "id": "s3",
+                    "text": "I create my password and write it on the class noticeboard so I don't forget"
+                },
+                {
+                    "id": "s4",
+                    "text": "It's a good request; I create my own password and share it with no one"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g4_15",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "14-18",
+        "title": "Before changing phones · Authenticator app",
+        "prompt": "You are moving to a new phone. The authenticator app on your old phone makes the codes for your social media sign-in. What do you do first?",
+        "explanation": "If you reset the old phone before moving the authenticator app or saving recovery codes, you may lock yourself out. Move the accounts to the new phone first and keep recovery codes somewhere safe.",
+        "public": {
+            "icon": "📱",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "I reset the old phone now; the codes will appear on the new phone by themselves"
+                },
+                {
+                    "id": "s2",
+                    "text": "I move the accounts to the new phone and save the recovery codes somewhere safe"
+                },
+                {
+                    "id": "s3",
+                    "text": "I turn off two-step verification completely and won't forget to turn it back on"
+                },
+                {
+                    "id": "s4",
+                    "text": "I screenshot the codes and send them to a friend"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g4_16",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "14-18",
+        "title": "Follower app · Third-party access",
+        "prompt": "An app says: 'Enter your social media username and password, get 1000 followers a day.' What is the right judgement?",
+        "explanation": "Giving your password to another app hands a stranger the key to your account; these apps can take it over for spam or to sell it. Only type your password on the service's own sign-in page.",
+        "public": {
+            "icon": "🛡️",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "I don't give it; a password goes only into the service's own sign-in screen"
+                },
+                {
+                    "id": "s2",
+                    "text": "I give my password and change it when I'm done"
+                },
+                {
+                    "id": "s3",
+                    "text": "It's in the app store, so it's safe"
+                },
+                {
+                    "id": "s4",
+                    "text": "If the reviews are good, giving my password is fine"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g4_17",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Paste allowed · Password manager",
+        "prompt": "A new site lets you paste a password you copied from your password manager. How do you judge this?",
+        "explanation": "This is good design: NIST guidance says sites should allow pasting and password managers, because that encourages long random passwords. Sites that block it push people to short ones.",
+        "public": {
+            "icon": "🔑",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "It's a security hole; the site should block pasting"
+                },
+                {
+                    "id": "s2",
+                    "text": "Good design; it makes long random passwords and password managers easier to use"
+                },
+                {
+                    "id": "s3",
+                    "text": "It's only safe for short passwords"
+                },
+                {
+                    "id": "s4",
+                    "text": "Writing the password in a file and reading it from there is safer than pasting"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g4_18",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "In-app passkey offer · Passkey",
+        "prompt": "You opened your bank's official app yourself, and it says 'Create a passkey on this device'. What is the right judgement?",
+        "explanation": "If the request comes from inside the official app you opened, it is a real security upgrade. A passkey stays on your device, does not work on fake sites and resists phishing.",
+        "public": {
+            "icon": "🛡️",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "It's definitely a scam; I should delete the app"
+                },
+                {
+                    "id": "s2",
+                    "text": "If I accept, I'll be sending my screen lock code to the bank"
+                },
+                {
+                    "id": "s3",
+                    "text": "It's genuine; it comes from the official app, so I can create it, and it resists phishing"
+                },
+                {
+                    "id": "s4",
+                    "text": "It only counts if I also confirm through a link sent by text message"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g4_19",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "Game account password · Word string",
+        "prompt": "Which password for your new game account is hardest to guess?",
+        "explanation": "Four unrelated words are long and hard to guess. Names, birth years and runs like 123 are the first things attackers try.",
+        "public": {
+            "icon": "🔐",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "kitty123"
+                },
+                {
+                    "id": "s2",
+                    "text": "Max2015"
+                },
+                {
+                    "id": "s3",
+                    "text": "Green-Cloud-Pizza-Plane"
+                },
+                {
+                    "id": "s4",
+                    "text": "12345678"
+                }
+            ],
+            "interaction_hint": "Example passwords are made up; never type your real password anywhere.",
+            "password_test": true
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g4_20",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 3,
+        "age_scope": "14-18",
+        "title": "Social media password · Team and name",
+        "prompt": "Which password is strongest for your social media account?",
+        "explanation": "Team names, first names and years are the first patterns attackers try; adding an exclamation mark adds little. A long string of randomly chosen words is much stronger.",
+        "public": {
+            "icon": "🔐",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Liverpool1892"
+                },
+                {
+                    "id": "s2",
+                    "text": "Sarah2008!"
+                },
+                {
+                    "id": "s3",
+                    "text": "bird-book-hill-lemon-7"
+                },
+                {
+                    "id": "s4",
+                    "text": "qwerty123"
+                }
+            ],
+            "interaction_hint": "Example passwords are made up; never type your real password anywhere.",
+            "password_test": true
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g4_21",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Someone leaves the team · 18",
+        "prompt": "What should happen after a team member leaves?",
+        "explanation": "The person's access should be removed, and any shared keys or passwords they knew should be replaced.",
+        "public": {
+            "icon": "🛡️",
+            "options": [
+                {
+                    "id": "s3",
+                    "text": "The shared password should stay the same"
+                },
+                {
+                    "id": "s2",
+                    "text": "Remove their access and replace shared secrets where needed"
+                },
+                {
+                    "id": "s1",
+                    "text": "Give the account to everyone"
+                }
+            ],
+            "interaction_hint": "Example passwords and account situations are made up; never type your real password."
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g4_22",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 4,
+        "age_scope": "14-18",
+        "title": "First bank card PIN · Card PIN",
+        "prompt": "You got your first bank card and need to pick a 4-digit PIN. Which is the best choice?",
+        "explanation": "Birth years, repeated or ordered digits are tried first, and a written note helps whoever finds a lost card. Pick random digits unrelated to you and memorise them.",
+        "public": {
+            "icon": "💳",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "My birth year, I could never forget it"
+                },
+                {
+                    "id": "s2",
+                    "text": "4 random digits unrelated to my personal details, which I memorise"
+                },
+                {
+                    "id": "s3",
+                    "text": "A neat pattern with no repeats, like 1357"
+                },
+                {
+                    "id": "s4",
+                    "text": "Random digits, with a small note tucked inside the card holder"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g4_23",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 4,
+        "age_scope": "14-18",
+        "title": "Password change you didn't make · Account takeover",
+        "prompt": "An email says 'Your game account password was changed. If this wasn't you, click here.' You really didn't change it. What is the best step?",
+        "explanation": "It could be real or fake; the link may be phishing. Open the app or site yourself, reset the password, sign out all sessions, check the recovery email and turn on two-step verification.",
+        "public": {
+            "icon": "🔐",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "I click the link in the email and get my password back right away"
+                },
+                {
+                    "id": "s2",
+                    "text": "I delete the email; I didn't change anything, so it doesn't matter"
+                },
+                {
+                    "id": "s3",
+                    "text": "I reply to the email and ask support to send me my password"
+                },
+                {
+                    "id": "s4",
+                    "text": "I open the site myself, reset the password, sign out all sessions and check my recovery details"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g4_24",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 4,
+        "age_scope": "14-18",
+        "title": "Scholarship portal says no · Leaked list",
+        "prompt": "A scholarship application portal says: 'This password appears in known data leaks, choose another one.' What does this mean?",
+        "explanation": "This is safe behaviour: current guidance tells services to check new passwords against leaked lists. Choose a new, long password used only for this account.",
+        "public": {
+            "icon": "🎓",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "The portal stole my password; I should give up on applying"
+                },
+                {
+                    "id": "s2",
+                    "text": "I add an exclamation mark to the end and try again"
+                },
+                {
+                    "id": "s3",
+                    "text": "The portal is right; I choose a long, unique password just for this account"
+                },
+                {
+                    "id": "s4",
+                    "text": "The portal is wrong; I try the same password in another browser"
+                }
+            ],
+            "interaction_hint": "Example passwords are made up; never type your real password."
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g4_25",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Order you don't recognise · Credential stuffing",
+        "prompt": "There is an order you don't recognise in your shopping account. You also used the same password on a forum that was leaked last month. What is the best plan?",
+        "explanation": "This is credential stuffing: a leaked password is tried on other sites. Replace it with unique passwords everywhere you used it, turn on two-step verification, sign out sessions and report the order.",
+        "public": {
+            "icon": "🔐",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "I change only the shopping site password; the forum doesn't matter"
+                },
+                {
+                    "id": "s2",
+                    "text": "I cancel the order and keep the password; it may be a coincidence"
+                },
+                {
+                    "id": "s3",
+                    "text": "I delete my forum account and the problem solves itself"
+                },
+                {
+                    "id": "s4",
+                    "text": "I replace it with a unique password on every account that used it, turn on two-step verification and report the order"
+                }
+            ],
+            "interaction_hint": "Example passwords are made up; never type your real password."
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g4_26",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "One try per account · Password spraying",
+        "prompt": "Company logs show sign-in attempts on hundreds of accounts on the same day, each tried once with the password 'Autumn2026!'. What is the best measure?",
+        "explanation": "This is password spraying: a few common passwords are tried on each account to avoid lockouts. Blocking common and leaked passwords plus phishing-resistant two-step verification works best.",
+        "public": {
+            "icon": "🛡️",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Block common and leaked passwords and require phishing-resistant two-step verification"
+                },
+                {
+                    "id": "s2",
+                    "text": "Lower the account lockout limit to a single attempt"
+                },
+                {
+                    "id": "s3",
+                    "text": "Force everyone to change their password every month"
+                },
+                {
+                    "id": "s4",
+                    "text": "Require at least one symbol and one capital letter"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g4_27",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Sudden 'No service' · SIM swap",
+        "prompt": "Your phone suddenly shows 'No service' for no reason, and soon after your email gets a 'sign-in from a new device' alert. What do you do?",
+        "explanation": "This may be a SIM swap: an attacker moves your number to their own SIM and receives your text codes. Call your mobile provider from another phone now, change key passwords, and switch from text codes to an app or passkey.",
+        "public": {
+            "icon": "📱",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "I restart the phone and wait a day"
+                },
+                {
+                    "id": "s2",
+                    "text": "I call my mobile provider from another phone now, change my passwords and switch from text codes to stronger verification"
+                },
+                {
+                    "id": "s3",
+                    "text": "I treat the email alert as spam and ignore it"
+                },
+                {
+                    "id": "s4",
+                    "text": "I complain using the 'This wasn't me' link in the alert email"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g4_28",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 4,
+        "age_scope": "50+",
+        "title": "Code request from a grandchild · Account takeover",
+        "prompt": "A message from an unknown number says: 'Grandma, this is my new number. A code was sent to you by mistake, can you tell me it?' What do you do?",
+        "explanation": "That code is for linking your messaging or bank account to a new device; sharing it lets someone take over the account. Tell nobody the code and call your grandchild on the old number you know.",
+        "public": {
+            "icon": "📱",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "It's my grandchild, so I send the code right away"
+                },
+                {
+                    "id": "s2",
+                    "text": "I ask for their name first; if it's right, I give the code"
+                },
+                {
+                    "id": "s3",
+                    "text": "I don't share the code; I call my grandchild on the old number I know and ask"
+                },
+                {
+                    "id": "s4",
+                    "text": "I send half the code and say the rest on the phone"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g4_29",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 4,
+        "age_scope": "50+",
+        "title": "Government portal reset call · Impersonation",
+        "prompt": "Someone claiming to be a government official says: 'Your password for the official government portal was reset. Read me the code sent to your phone, or your pension will stop.' What do you do?",
+        "explanation": "Real agencies never ask for a password or verification code by phone; the pension threat is there to rush you. Hang up, read the code to no one, and call the agency's official number yourself.",
+        "public": {
+            "icon": "🏛️",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "I hang up, don't read the code, and call the agency's official number myself"
+                },
+                {
+                    "id": "s2",
+                    "text": "If they say my national ID number correctly, I read the code"
+                },
+                {
+                    "id": "s3",
+                    "text": "I read the code but don't tell them my password"
+                },
+                {
+                    "id": "s4",
+                    "text": "I call back the number the official gave me and tell them the code there"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g4_30",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 4,
+        "age_scope": "14-18",
+        "title": "Complex-looking trap · Symbols for letters",
+        "prompt": "Which password looks complex but can be guessed in seconds?",
+        "explanation": "Swapping letters in the word 'Password' for @ and 0 does not fool attackers; they try those swaps automatically. Length and randomness matter more than symbols.",
+        "public": {
+            "icon": "🔐",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "leaf-train-soup-battery"
+                },
+                {
+                    "id": "s2",
+                    "text": "P@ssw0rd2024!"
+                },
+                {
+                    "id": "s3",
+                    "text": "zN4#qT8!vL2@pW"
+                },
+                {
+                    "id": "s4",
+                    "text": "ocean-pencil-stove-pear-3"
+                }
+            ],
+            "interaction_hint": "Example passwords are made up; never type your real password anywhere.",
+            "password_test": true
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g4_31",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Work account password · Company and month",
+        "prompt": "You are setting the password for your email at your first job. Which is the best choice?",
+        "explanation": "Company name, month and year are the patterns employees choose most, and they are on attackers' lists. A long password of random words kept in a password manager is safest.",
+        "public": {
+            "icon": "🔐",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Company2025!"
+                },
+                {
+                    "id": "s2",
+                    "text": "June.2025"
+                },
+                {
+                    "id": "s3",
+                    "text": "James1985"
+                },
+                {
+                    "id": "s4",
+                    "text": "orange-compass-jar-night"
+                }
+            ],
+            "interaction_hint": "Example passwords are made up; never type your real password anywhere.",
+            "password_test": true
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g4_32",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 4,
+        "age_scope": "50+",
+        "title": "Grandchild's birthday · Personal info",
+        "prompt": "You are choosing a new password for your banking app. Which is safest?",
+        "explanation": "Birth dates, a grandchild's name and 123456 are easy to find on social media or are tried first. A password made of random words that you share with no one is safest.",
+        "public": {
+            "icon": "🛡️",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Ethan2012"
+                },
+                {
+                    "id": "s2",
+                    "text": "18061955"
+                },
+                {
+                    "id": "s3",
+                    "text": "tea-garden-umbrella-train"
+                },
+                {
+                    "id": "s4",
+                    "text": "123456Ab"
+                }
+            ],
+            "interaction_hint": "Example passwords are made up; never type your real password anywhere.",
+            "password_test": true
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g4_33",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Text code, app code, passkey · Phishing resistance",
+        "prompt": "A fake sign-in page instantly passes everything you type to the real site. Which method alone stops this attack?",
+        "explanation": "Text and authenticator app codes can be typed into the fake page and passed on. A passkey is tied to the real site's address and will not sign in on a fake one, so it resists phishing.",
+        "public": {
+            "icon": "🔑",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "A one-time code sent by text message"
+                },
+                {
+                    "id": "s2",
+                    "text": "The authenticator app's 30-second code"
+                },
+                {
+                    "id": "s3",
+                    "text": "A long, unique password"
+                },
+                {
+                    "id": "s4",
+                    "text": "A passkey tied to the site's address"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g4_34",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Midnight alert flood · Approval fatigue",
+        "prompt": "At 2 a.m. you get 15 sign-in approval requests, then 'IT support' calls and says: 'Approve just one and we'll fix the system.' What do you do?",
+        "explanation": "The requests mean an attacker has your password; the call is a trick to get your approval. Don't approve, change your password and report it to the security team through the official channel you know.",
+        "public": {
+            "icon": "📱",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "I approve one so the alerts stop, then change my password"
+                },
+                {
+                    "id": "s2",
+                    "text": "I approve none, change my password and report it to the security team through the official channel"
+                },
+                {
+                    "id": "s3",
+                    "text": "I tell the caller I declined them all and do nothing else"
+                },
+                {
+                    "id": "s4",
+                    "text": "I mute the alerts and look at them when I get to work"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g4_35",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Complex-looking pattern · Password strength",
+        "prompt": "Which one best resists an offline guessing attack? (All are examples.)",
+        "explanation": "'City + year + !' and letter-to-symbol swaps are the first patterns in attackers' word rules. Four randomly chosen words are far stronger than passwords that only look complex.",
+        "public": {
+            "icon": "🔐",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "London2024!"
+                },
+                {
+                    "id": "s2",
+                    "text": "P@ssw0rd#2026"
+                },
+                {
+                    "id": "s3",
+                    "text": "lantern dove scythe cloud"
+                },
+                {
+                    "id": "s4",
+                    "text": "L0nd0n!!2024Uk"
+                }
+            ],
+            "interaction_hint": "Example passwords are made up; never type your real password.",
+            "password_test": true
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g4_36",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Unused recovery address · Account recovery",
+        "prompt": "Your main email's recovery address is on your old company's domain, which has expired. Two-step verification is on. What is the right risk assessment?",
+        "explanation": "Someone can buy an expired domain and create that address, and account recovery can get around two-step verification. Change the recovery address to one you control and keep recovery codes safe.",
+        "public": {
+            "icon": "🛡️",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Two-step verification is on, so the recovery address doesn't matter"
+                },
+                {
+                    "id": "s2",
+                    "text": "No risk; the company closed, so the address can't be used"
+                },
+                {
+                    "id": "s3",
+                    "text": "Just making the main password longer removes this risk"
+                },
+                {
+                    "id": "s4",
+                    "text": "Someone could take over the domain; I should change the recovery address and save recovery codes"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g4_37",
+        "game_id": 4,
+        "kind": "password",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Short and complex, or long and simple · Length",
+        "prompt": "Which one holds out against an attacker the longest?",
+        "explanation": "Five random words take far longer to crack than an 8-character complex password. Typing the same part twice adds no real length; attackers try repeats too.",
+        "public": {
+            "icon": "🔐",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Tr#9kL!2"
+                },
+                {
+                    "id": "s2",
+                    "text": "Brooklyn34!Brooklyn34!"
+                },
+                {
+                    "id": "s3",
+                    "text": "rabbit-lantern-cloud-corn-rock"
+                },
+                {
+                    "id": "s4",
+                    "text": "P@ssw0rd2026#"
+                }
+            ],
+            "interaction_hint": "Example passwords are made up; never type your real password anywhere.",
+            "password_test": true
+        },
+        "answer": "s3"
+    }
+]

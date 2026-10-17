@@ -1,0 +1,1031 @@
+[
+    {
+        "key": "g2_01",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Your bank account is closing",
+        "prompt": "Look at this email. Is it fake or trustworthy?",
+        "explanation": "The message rushes you with a 10-minute deadline and asks for your password. Banks never ask for your password by email. Do not click the link; check your bank's own app.",
+        "public": {
+            "sender": "security@yourbank-verify.example",
+            "subject": "Your account will be suspended",
+            "body": "Dear customer, your account will be closed within 10 minutes. Verify your password now.",
+            "preview": "Link preview: sample.example (no real link opens).",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: a normal, safe message"
+                },
+                {
+                    "id": "s2",
+                    "text": "Fake: a message trying to trick you"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g2_02",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Homework reminder",
+        "prompt": "Look at this email. Is it fake or trustworthy?",
+        "explanation": "The message only reminds you about tomorrow's presentation. There is no link and it does not ask for a password or any information. If you ever see a strange request, ask your teacher yourself.",
+        "public": {
+            "sender": "teacher@lessons.example",
+            "subject": "Homework reminder",
+            "body": "Remember to come to class on time for tomorrow's presentation. There is no link attached.",
+            "preview": "Link preview: sample.example (no real link opens).",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: a normal, safe message"
+                },
+                {
+                    "id": "s2",
+                    "text": "Fake: a message trying to trick you"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g2_03",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Password request from IT",
+        "prompt": "You received this email. Is it fake or trustworthy?",
+        "explanation": "The message asks you to reply with your password. A real support team never asks for your password. Do not reply; contact the support team yourself.",
+        "public": {
+            "sender": "support@account-recovery.example",
+            "subject": "Your password has expired",
+            "body": "This is the IT team. Please reply to this email and write your password to us.",
+            "preview": "Link preview: sample.example (no real link opens).",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Fake: a message trying to trick you"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: a normal, safe message"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g2_04",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Request for a verification code",
+        "prompt": "Look at this email. Is it fake or trustworthy?",
+        "explanation": "The message asks for the code sent to your phone and threatens to close your account. Whoever gets this code can get into your account. Never share the code with anyone.",
+        "public": {
+            "sender": "verify@code-share.example",
+            "subject": "Protect your account",
+            "body": "If you do not share the verification code you just received with us, your account will be closed.",
+            "preview": "Link preview: sample.example (no real link opens).",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: a normal, safe message"
+                },
+                {
+                    "id": "s2",
+                    "text": "Fake: a message trying to trick you"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g2_05",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Shared salary spreadsheet",
+        "prompt": "Look at this email. Do you think it is trustworthy?",
+        "explanation": "You are asked to type your password into a form to see the document. The form is not on the company's own site. Do not use the link; open the file system yourself and check.",
+        "public": {
+            "sender": "collab@file-sharing.example",
+            "subject": "Salary spreadsheet shared with you",
+            "body": "To view the document, enter your work email password in this form.",
+            "preview": "Link preview: sample.example (no real link opens).",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Fake: a message trying to trick you"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: a normal, safe message"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g2_06",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Meeting room changed",
+        "prompt": "Look at this email. Is it fake or trustworthy?",
+        "explanation": "The message only says the room has changed and asks you for nothing. You can check the same information in the company's own calendar. That is why it is trustworthy.",
+        "public": {
+            "sender": "calendar@company.example",
+            "subject": "Room change",
+            "body": "The meeting has moved to Room B. It has also been updated in the company calendar; you do not need to sign in to anything.",
+            "preview": "Link preview: sample.example (no real link opens).",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Fake: a message trying to trick you"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: a normal, safe message"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g2_07",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "all",
+        "title": "Unheard voicemail",
+        "prompt": "Look at this email. Do you think it is trustworthy?",
+        "explanation": "You are asked to sign in through an attached file to play a voice message. You never need a password to listen to audio; the file is there to steal it. Do not open it; check your messages in the app you know.",
+        "public": {
+            "sender": "alerts@voice-message.example",
+            "subject": "Unheard message",
+            "body": "To listen to the recording, open the attached HTML file and sign in with your work account.",
+            "preview": "Link preview: sample.example (no real link opens).",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: a normal, safe message"
+                },
+                {
+                    "id": "s2",
+                    "text": "Fake: a message trying to trick you"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g2_08",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "14-18",
+        "title": "Problem with your school account",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "The message asks you to send your password to fix your account. The school system never asks for your password by email. Check the school's own system or ask the IT office.",
+        "public": {
+            "sender": "help@campus-portal.example",
+            "subject": "Problem with your student account",
+            "body": "Your account needs an update. To prove who you are, send your password to this address.",
+            "preview": "https://campus-portal.example/verify",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Fake: a message trying to trick you"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: a normal, safe message"
+                }
+            ],
+            "review_note": "These examples are made up. 'Trustworthy' does not mean we really checked the sender."
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g2_09",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Secret transfer request from the boss",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "The message pretends to be your boss, wants secret and urgent money, and tells you not to call. Scammers use this kind of pressure. Do not send money; call your boss on a number you know.",
+        "public": {
+            "sender": "manager@urgent-transfer.example",
+            "subject": "Confidential payment - now",
+            "body": "I'm in a meeting, don't call me. Make an urgent transfer from the company account to the account below and don't tell anyone.",
+            "preview": "Account details are not shown in this example",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: a normal, safe message"
+                },
+                {
+                    "id": "s2",
+                    "text": "Fake: a message trying to trick you"
+                }
+            ],
+            "review_note": "These examples are made up. 'Trustworthy' does not mean we really checked the sender."
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g2_10",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Supplier's new bank account",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "A supplier says it changed its bank account and asks you not to call your usual contact. The money could go to a scammer. Call the supplier on a phone number you already know and ask.",
+        "public": {
+            "sender": "invoices@supplier-payment.example",
+            "subject": "Our new IBAN / bank account number",
+            "body": "From now on, please pay all invoices into our new bank account. Do not call the person you used to deal with to check.",
+            "preview": "New IBAN: [sample]",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Fake: a message trying to trick you"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: a normal, safe message"
+                }
+            ],
+            "review_note": "These examples are made up. 'Trustworthy' does not mean we really checked the sender."
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g2_11",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "50+",
+        "title": "Urgent money request from a relative",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "The message pretends to be a relative, says their number has changed and asks for money right away. Do not send money; call your relative on their old saved number or ask them face to face.",
+        "public": {
+            "sender": "help@urgent-relative.example",
+            "subject": "My new number, emergency",
+            "body": "My phone has changed. Don't call me right now, just send money quickly; I'll explain later.",
+            "preview": "No link",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: a normal, safe message"
+                },
+                {
+                    "id": "s2",
+                    "text": "Fake: a message trying to trick you"
+                }
+            ],
+            "review_note": "These examples are made up. 'Trustworthy' does not mean we really checked the sender."
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g2_12",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "Free diamonds gift",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "The message asks for your password, rushes you with 1 hour and says 'don't tell anyone'. No game company asks for your password to give gifts. Do not click the link; show the message to a trusted adult.",
+        "public": {
+            "sender": "gift@game-free-diamonds.example",
+            "subject": "5000 diamonds are ready for your account!",
+            "body": "Hi player! To get 5000 diamonds sent to your account, type your username and password on the page below. This offer is valid for 1 hour only. Don't tell anyone, or the diamonds will be cancelled!",
+            "preview": "https://diamond-load.example/login",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: it is fine if you only type your username"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: the diamonds look just like the ones in the game"
+                },
+                {
+                    "id": "s3",
+                    "text": "Trustworthy: the game company is giving gifts, sign in now"
+                },
+                {
+                    "id": "s4",
+                    "text": "Fake: it asks for your password, rushes you and wants you to keep a secret"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g2_13",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "New device sign-in alert",
+        "prompt": "You just signed in to your game on the tablet at home. Then this email arrived. What do you think?",
+        "explanation": "The sign-in time and device match the sign-in you just made. There is no link and it does not ask for any information. If you ever see a sign-in you don't recognise, change your password inside the game.",
+        "public": {
+            "sender": "alerts@gamepark.example",
+            "subject": "New sign-in from a device",
+            "body": "Hi Danny_Captain, your account was signed in today at 15:42 from a device called 'Tablet - Home'. If this wasn't you, change your password in the game under Settings > Security. This email will never ask for your password or a code.",
+            "preview": "No link.",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Fake: having no link means it is a hidden trap"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: you signed in, there is no link and it asks for nothing"
+                },
+                {
+                    "id": "s3",
+                    "text": "Trustworthy: just reply and send your password"
+                },
+                {
+                    "id": "s4",
+                    "text": "Fake: every sign-in alert is a trap, so reply with your password"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g2_14",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "Your channel will be deleted",
+        "prompt": "Look at the sender, the message and any attachments. Which answer is best?",
+        "explanation": "The attached file ends in .exe; it is not a form but a program that runs. The message scares you and asks you to hide it from your family. Do not open the file; show the message to your family.",
+        "public": {
+            "sender": "copyright-team@vidyo-support-center.example",
+            "subject": "Your channel will be deleted in 24 hours!",
+            "body": "Music used without permission was found in your video. To stop your channel being deleted, open the attached appeal_form.exe file and sign in with your account details. Don't tell your family, it will slow things down.",
+            "preview": "Attachment: appeal_form.exe",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Fake: it scares you, wants you to open an .exe file and asks for your account details"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: music warnings come like this, fill in the form"
+                },
+                {
+                    "id": "s3",
+                    "text": "Trustworthy: open the file first and see if it has a virus"
+                },
+                {
+                    "id": "s4",
+                    "text": "Trustworthy: it is fine if you open the file on a school computer"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g2_15",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "0-13",
+        "title": "A friend asks for your vote",
+        "prompt": "Read this email carefully. Which answer is right?",
+        "explanation": "The code sent to your phone is the key to your account; do not give it out even if a friend asks. Emma's account may have been stolen. Ask Emma face to face or by phone.",
+        "public": {
+            "sender": "emma.wilson@mychat.example",
+            "subject": "Please vote for me in the contest",
+            "body": "Hi! I'm in an art contest, please vote for me. Open the link, type your phone number, then send me the 6-digit code you get so your vote counts. There's not much time left, I need it now!",
+            "preview": "https://art-contest-vote.example/vote",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: you can type your number as long as you don't send the code"
+                },
+                {
+                    "id": "s2",
+                    "text": "Fake: Emma's account may be stolen; don't give the code, ask her another way"
+                },
+                {
+                    "id": "s3",
+                    "text": "Trustworthy: Emma is your friend, you should help her"
+                },
+                {
+                    "id": "s4",
+                    "text": "Trustworthy: it is fine if you send the code to Emma privately"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g2_16",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "14-18",
+        "title": "Practice exam results",
+        "prompt": "Read this email carefully. Which answer is right?",
+        "explanation": "The message only gives information; there is no link or attachment. It sends you to the app you always use. Still, do not reply with any information; check your result in the app.",
+        "public": {
+            "sender": "results@testing-center.example",
+            "subject": "Your practice exam results are out",
+            "body": "Dear candidate, your results for the October 12 practice exam are out. To see your result, sign in to the candidate app as usual, or type the candidate website address yourself. For your safety, this email has no links or attachments, and we will never ask for your password.",
+            "preview": "No link.",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Fake: it names the organisation, so it must be a copy"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: it asks for nothing; check your result in the app you know"
+                },
+                {
+                    "id": "s3",
+                    "text": "Fake: if there is no link, the goal is to learn my email address"
+                },
+                {
+                    "id": "s4",
+                    "text": "Trustworthy: reply with your national ID number and they will send your result"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g2_17",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "14-18",
+        "title": "Verified badge offer",
+        "prompt": "Read this email carefully. Which answer is right?",
+        "explanation": "The message asks for your password and the code sent to your phone together; whoever has both can get into your account. The sender address is not the platform's own. For a badge, check only the app's own settings.",
+        "public": {
+            "sender": "verify@socialnet-verify-center.example",
+            "subject": "Your account was selected for a verified badge",
+            "body": "Congratulations! Thanks to your follower count, your account can get a verified badge. To claim it within 48 hours, enter your username, password and the verification code sent to your phone in the form below. If time runs out, you lose your chance.",
+            "preview": "https://badge-apply.example/form",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: if your friends applied too, it is fine"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: platforms can ask for your password for a badge"
+                },
+                {
+                    "id": "s3",
+                    "text": "Fake: it asks for your password and code, and the address is not the platform's"
+                },
+                {
+                    "id": "s4",
+                    "text": "Trustworthy: you can enter only your password and skip the code"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g2_18",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Traffic fine discount",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "It does not show your licence plate, rushes you with 24 hours and wants your card details on a strange site. The government does not collect fines through links like this. Type the official government portal address yourself and check your fines there.",
+        "public": {
+            "sender": "fine-notice@traffic-payment-center.example",
+            "subject": "Unpaid fine: 50% off if paid within 24 hours",
+            "body": "Dear vehicle owner, a $125 traffic fine has been issued for your licence plate. If you pay within 24 hours, you get 50% off. You can pay by entering your card details on the page below. When time runs out, debt collection (legal action) will start against you.",
+            "preview": "https://fine-pay.example/payment",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: the discount ends soon, pay now"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: it reached the wrong person, reply and let them know"
+                },
+                {
+                    "id": "s3",
+                    "text": "Trustworthy: if you pay with a virtual card, there is no risk"
+                },
+                {
+                    "id": "s4",
+                    "text": "Fake: fines are not paid through a card link; check your fines on the official site yourself"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g2_19",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 3,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Payslip ready notice",
+        "prompt": "Read this email carefully. Which answer is right?",
+        "explanation": "The message comes from the company's own address at the expected time. There is no link or attachment and it asks for nothing. Open the HR site from its usual saved address to see your payslip.",
+        "public": {
+            "sender": "payroll@mycompany.example",
+            "subject": "Your October payslip is ready",
+            "body": "Hello, your October payslip has been uploaded to the HR site. To see it, open the site from its usual saved address. This email has no attachment or link; payslips are never sent by email. For questions, call HR on extension 2100.",
+            "preview": "No link.",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Fake: it is strange to give information without a link"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: an expected message; open the HR site from its saved address"
+                },
+                {
+                    "id": "s3",
+                    "text": "Trustworthy: reply now and ask for the payslip by email"
+                },
+                {
+                    "id": "s4",
+                    "text": "Fake: salary emails are always traps, delete it"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g2_20",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "System maintenance notice",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "The message only announces the maintenance time. There is no link and it does not ask for a password or code. If you want to be sure, check the company's announcements page yourself.",
+        "public": {
+            "sender": "it@company-notice.example",
+            "subject": "Planned maintenance",
+            "body": "The system will be down for maintenance on Saturday from 2:00 to 3:00 AM. This email does not ask for a password or code.",
+            "preview": "No link",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: a normal, safe message"
+                },
+                {
+                    "id": "s2",
+                    "text": "Fake: a message trying to trick you"
+                }
+            ],
+            "review_note": "These examples are made up. 'Trustworthy' does not mean we really checked the sender."
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g2_21",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 4,
+        "age_scope": "14-18",
+        "title": "Internship offer with no interview",
+        "prompt": "Look at the sender, the message and any attachments. Which answer is best?",
+        "explanation": "Real employers do not charge for internships or ask for photos of your bank card. Someone could open accounts in your name using photos of your ID. Research the company yourself and do not send any documents.",
+        "public": {
+            "sender": "hr.careers@intern-opportunity.example",
+            "subject": "Summer internship accepted: send your documents today",
+            "body": "Hi, your application has been accepted! To complete your registration, send photos of the front and back of your ID, photos of the front and back of your bank card, and a $25 registration fee today. The fee will be refunded with your first paycheck. No interview needed.",
+            "preview": "https://internship-signup.example/upload-documents",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: you can send just your ID photo before paying"
+                },
+                {
+                    "id": "s2",
+                    "text": "Fake: only because of the web address; asking for a fee and documents is normal"
+                },
+                {
+                    "id": "s3",
+                    "text": "Fake: no interview, and it asks for money and photos of your card"
+                },
+                {
+                    "id": "s4",
+                    "text": "Trustworthy: internships ask for ID, upload the documents"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g2_22",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 4,
+        "age_scope": "14-18",
+        "title": "Trade offer for a game item",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "Read the web address from the end: the real site is trade-confirm.example, not the game market. The 'gamemarket' at the start is there to fool you. Check offers only by opening the app yourself.",
+        "public": {
+            "sender": "trade@gamemarket-secure.example",
+            "subject": "Someone offered $300 for an item in your inventory",
+            "body": "A player offered $300 for the 'Golden Dragon Shield' in your inventory. To confirm the sale, sign in with your game market account using the link below. The offer expires in 30 minutes.",
+            "preview": "https://gamemarket.example.trade-confirm.example/login",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: the link starts with gamemarket.example, so sign in"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: the only issue is the high price; the link is safe"
+                },
+                {
+                    "id": "s3",
+                    "text": "Trustworthy: it is fine if you sign in and change your password afterwards"
+                },
+                {
+                    "id": "s4",
+                    "text": "Fake: the real site is trade-confirm.example at the end, not the game market"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g2_23",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 4,
+        "age_scope": "14-18",
+        "title": "Leaked answer key",
+        "prompt": "Look at the sender, the message and any attachments. Which answer is best?",
+        "explanation": "The file name ends in .pdf.scr; it is not a PDF but a program that runs. A password-protected zip slips past antivirus checks. Do not open the file; delete it.",
+        "public": {
+            "sender": "sharing.group@classmate.example",
+            "subject": "The practice exam answer key leaked!",
+            "body": "We've got the answer key for tomorrow's practice exam. Open the attached archive, the password is 2024. It opens when you run the answers.pdf.scr file inside. Don't spread it, it will be deleted soon.",
+            "preview": "Attachment: answer_key.zip (password-protected)",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: sharing answers is wrong, but the file is safe"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: it is a PDF file, so it is harmless"
+                },
+                {
+                    "id": "s3",
+                    "text": "Fake: a password-protected zip cannot be scanned, and .pdf.scr is really a program"
+                },
+                {
+                    "id": "s4",
+                    "text": "Trustworthy: it is fine if you open the zip and just look inside"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g2_24",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Bonus meeting invitation",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "Showing up in your calendar does not make it safe; outsiders can add invitations too. The sender is outside the company and wants your company password. Ask HR on a phone number you know.",
+        "public": {
+            "sender": "calendar-noreply@meeting-invite.example",
+            "subject": "Invitation: Year-End Bonus and Pay Rise Meeting",
+            "body": "HR has added this meeting to your calendar. Before joining, confirm your attendance by signing in to your company account with the 'Join invitation' button. Invitations not confirmed within 2 hours will be cancelled and the meeting postponed.",
+            "preview": "https://meeting-invite.example/sso/company-login",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Fake: it comes from outside the company and leads to a fake sign-in page"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: if it was added to your calendar by itself, it came from the company"
+                },
+                {
+                    "id": "s3",
+                    "text": "Trustworthy: the topic is a bonus, but the sign-in page is safe"
+                },
+                {
+                    "id": "s4",
+                    "text": "Trustworthy: links in calendar invitations are checked in advance"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g2_25",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Landlord wants a deposit before a viewing",
+        "prompt": "Look at the sender, the message and any attachments. Which answer is best?",
+        "explanation": "The landlord won't show the flat, rushes you and says the key will be sent by courier. The ID photo may be stolen. Never send a deposit (advance payment) before seeing the place and signing a contract.",
+        "public": {
+            "sender": "landlord.mark@my-mailbox.example",
+            "subject": "The flat is still available, a deposit will hold it",
+            "body": "Hi, I'm abroad so I can't show you the flat, but I can send the key by courier. Three other people are interested; if you pay the $500 deposit into my IBAN / bank account today, I'll take the listing down. I've attached a photo of my ID so you can trust me.",
+            "preview": "Attachment: id_photo.jpg",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: he sent a photo of his ID, so he is honest"
+                },
+                {
+                    "id": "s2",
+                    "text": "Fake: wants money without a viewing, rushes you and will send the key by courier"
+                },
+                {
+                    "id": "s3",
+                    "text": "Trustworthy: if the name on the ID matches the account owner, you can pay"
+                },
+                {
+                    "id": "s4",
+                    "text": "Trustworthy: you can pay half now and the rest later"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g2_26",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 4,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Job offer document",
+        "prompt": "Look at the sender, the message and any attachments. Which answer is best?",
+        "explanation": "The file name ends in .docm; this kind of document can hide commands. If you click 'Enable Content', those commands run. Do not open the attachment; research the company yourself.",
+        "public": {
+            "sender": "careers@talent-hunter.example",
+            "subject": "Details of the position you applied for",
+            "body": "Hello, your CV caught our interest. You can find the salary and benefits for the position in the attached document. Because the document is protected, after opening it you need to click 'Enable Content' in the yellow bar at the top.",
+            "preview": "Attachment: Position_Details.docm",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: job offers usually come as protected documents"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: the company name is missing, but the attachment is safe"
+                },
+                {
+                    "id": "s3",
+                    "text": "Trustworthy: it is fine if you open the document on your phone"
+                },
+                {
+                    "id": "s4",
+                    "text": "Fake: it wants you to click 'Enable Content' to run hidden commands"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g2_27",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 4,
+        "age_scope": "50+",
+        "title": "Pension bonus increase",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "Nobody needs your card number or a text-message code to pay money in; these are used to take money out. The sender has nothing to do with your bank. Call the number on the back of your card and ask.",
+        "public": {
+            "sender": "bonus@pension-payment-support.example",
+            "subject": "Your pension bonus has been raised to $1,200",
+            "body": "Dear pensioner, your pension bonus has been updated. To receive the difference in your account, enter your bank name, card number and the code that will be sent to your phone on the page below. Claims not confirmed by the end of business today will be cancelled.",
+            "preview": "https://pension-bonus.example/confirm",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: bonus increases are announced like this, confirm it"
+                },
+                {
+                    "id": "s2",
+                    "text": "Fake: it asks for your card number and text-message code; call your bank yourself"
+                },
+                {
+                    "id": "s3",
+                    "text": "Trustworthy: it says 'dear pensioner', so it comes from an official body"
+                },
+                {
+                    "id": "s4",
+                    "text": "Trustworthy: type your card number but not the text-message code"
+                }
+            ]
+        },
+        "answer": "s2"
+    },
+    {
+        "key": "g2_28",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 4,
+        "age_scope": "50+",
+        "title": "Secret investigation message",
+        "prompt": "Look at the sender, the message and any attachments. Which answer is best?",
+        "explanation": "Prosecutors and police never ask you to move your money. Being told to keep it from your family is a big warning sign. Do nothing, tell your family and call the police on the official emergency number.",
+        "public": {
+            "sender": "prosecutor.office@legal-notice-center.example",
+            "subject": "CONFIDENTIAL: Investigation opened in your name",
+            "body": "Dear citizen, an account opened in your name has been used for fraud. The investigation is confidential; do not tell your family or your bank. To protect your money, transfer your savings to the safe holding account in the attachment. Otherwise your accounts will be frozen.",
+            "preview": "Attachment: safe_account_info.pdf",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: the government sends emails about secret investigations"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: call the number in the attachment to check, then you can transfer"
+                },
+                {
+                    "id": "s3",
+                    "text": "Fake: no official body ever asks you to move money to a 'safe account'"
+                },
+                {
+                    "id": "s4",
+                    "text": "Trustworthy: you can transfer just half of your savings first"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g2_29",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "File in an old email thread",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "The address really is Sarah's, but her account may have been stolen. The file is not on her company's site and it wants your company password. Do not open the link; call Sarah on a number you know.",
+        "public": {
+            "sender": "sarah.collins@partnerfirm.example",
+            "subject": "RE: RE: November shipping plan",
+            "body": "Hello, following up on our emails, here is the updated list. The file is large, so I sent it as a cloud link; sign in with your company account to open it.\n\n> Your message of 03/11: Hi Sarah, we are waiting for the updated list.",
+            "preview": "https://partnerfirm-share.example/file/sign-in",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: the sender is a real business partner and it continues an old thread"
+                },
+                {
+                    "id": "s2",
+                    "text": "Fake: the sender address is a copy with changed letters"
+                },
+                {
+                    "id": "s3",
+                    "text": "Fake: Sarah's account may be stolen; don't open the file, call her"
+                },
+                {
+                    "id": "s4",
+                    "text": "Trustworthy: forward the link to your own email first and open it there"
+                }
+            ]
+        },
+        "answer": "s3"
+    },
+    {
+        "key": "g2_30",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Permission for a contract app",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "The sign-in page is real, but the app asking for permission belongs to the attacker. The end of the link asks for lasting access to read your emails and files. Changing your password does not stop it; never give permission to an app you don't know.",
+        "public": {
+            "sender": "sign@docapprove-pro.example",
+            "subject": "A contract is waiting for your signature",
+            "body": "A contract has been sent to you. To view it, allow the 'DocApprove Pro' app with your company account. You will not be asked for a password; the sign-in page is your company's own page.",
+            "preview": "https://login.office-cloud.example/oauth/consent?app=DocApprove-Pro&scope=Mail.Read,Files.ReadWrite.All,offline_access",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Fake: an app you don't know wants lasting access to your email and files"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: if you allow it and change your password afterwards, there is no risk"
+                },
+                {
+                    "id": "s3",
+                    "text": "Fake: the sign-in page is fake and the web address is copied"
+                },
+                {
+                    "id": "s4",
+                    "text": "Trustworthy: the link goes to the company's real sign-in page and asks for no password"
+                }
+            ]
+        },
+        "answer": "s1"
+    },
+    {
+        "key": "g2_31",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Instructions to approve a number on your phone",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "The number on an approval screen appears on the screen of whoever is signing in. Anyone who tells you the number in advance is the attacker trying to get into your account. Deny any approval you did not start and tell IT.",
+        "public": {
+            "sender": "it-migration@mycompany-identity.example",
+            "subject": "Sign-in approval system changing: today 14:00",
+            "body": "Today between 14:00 and 14:15 we are moving to a new verification system. If the approval request on your phone asks for a number, enter 47 and approve. Accounts of users who do not approve will be locked after the move.",
+            "preview": "No link.",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Trustworthy: there is no link, it is just a system change notice"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: if it is 14:00, you can enter 47"
+                },
+                {
+                    "id": "s3",
+                    "text": "Fake: only the sender address is different; the instructions are normal"
+                },
+                {
+                    "id": "s4",
+                    "text": "Fake: whoever gives the number is trying to get into your account; deny it"
+                }
+            ]
+        },
+        "answer": "s4"
+    },
+    {
+        "key": "g2_32",
+        "game_id": 2,
+        "kind": "mail",
+        "difficulty": 5,
+        "age_scope": "19-25,26-30,31-40,41-49,50+",
+        "title": "Passwordless sign-in setup",
+        "prompt": "Check the sender, the message and the link. Is it fake or trustworthy?",
+        "explanation": "The message comes from the company's own address, has no link and asks for nothing. A reasonable deadline alone is not a trap. Start the setup from your own settings and never give your code to anyone.",
+        "public": {
+            "sender": "security@mycompany.example",
+            "subject": "Passkey setup: by November 1",
+            "body": "We are moving company accounts to passwordless sign-in. There is no link in this email; start the setup on your laptop under Settings > Accounts > Security, or from the 'Security' tile on the company intranet. You will not be asked for a password, code or approval. Questions: extension 4400.",
+            "preview": "No link.",
+            "options": [
+                {
+                    "id": "s1",
+                    "text": "Fake: it uses passwordless sign-in as an excuse to steal your account"
+                },
+                {
+                    "id": "s2",
+                    "text": "Trustworthy: company address, no link; start the setup from your own settings"
+                },
+                {
+                    "id": "s3",
+                    "text": "Fake: it rushes you by giving a deadline"
+                },
+                {
+                    "id": "s4",
+                    "text": "Trustworthy: to speed things up, call the extension and tell them your code"
+                }
+            ]
+        },
+        "answer": "s2"
+    }
+]
