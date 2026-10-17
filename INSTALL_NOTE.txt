@@ -1,0 +1,33 @@
+CYBER ADVENTURE (English) - QUICK INSTALL
+=========================================
+
+1) FILES
+   Upload this zip to your cPanel home directory (OUTSIDE public_html) and extract it:
+   /home/<cpanel-user>/CyberAdventure/
+
+2) SUBDOMAIN
+   cPanel > Domains: set the subdomain's Document Root to CyberAdventure/public
+   and enable HTTPS with AutoSSL. app, config and database must stay outside the web root.
+
+3) PHP
+   MultiPHP Manager: PHP 8.1 or newer (pdo_mysql, json, openssl, fileinfo, gd).
+
+4) DATABASE (ONE FILE)
+   Create an EMPTY MySQL database and user, then phpMyAdmin > select the database > Import:
+   database/INSTALL.sql   (tables, six games, settings and 188 questions)
+
+5) CONFIGURATION
+   Copy config/local.example.php to config/local.php and fill in:
+   db_name, db_user, db_password, app_url (https://your-subdomain),
+   setup_key and recovery_pepper (two different random strings, at least 32 characters each).
+   Never change recovery_pepper after launch: players' 4-digit codes depend on it.
+
+6) FIRST ADMIN
+   Open https://your-subdomain/setup, enter the setup_key and create the admin account.
+   Admin panel: https://your-subdomain/admin/login
+
+7) CHECK
+   public/assets/media/uploads must be writable (755 is usually enough).
+   Register a test player and play one round of each game.
+
+Full guide: docs/INSTALL.md   Media licences: docs/MEDIA_LICENSES.md

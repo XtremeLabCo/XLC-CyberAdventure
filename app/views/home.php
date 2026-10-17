@@ -1,0 +1,24 @@
+<div class="home-orb orb-a"></div><div class="home-orb orb-b"></div>
+<section class="hero container">
+ <div class="hero-copy"><div class="eyebrow"><span class="pulse-dot"></span> CYBER AWARENESS FESTIVAL ZONE</div>
+  <h1>Ready to become a <em>hero</em> of the digital world?</h1>
+  <p>Six different games, six separate adventures! Track down fake messages, uncover hidden dangers and collect your points. Let your knowledge make a difference!</p>
+  <div class="hero-actions"><a class="btn btn-primary btn-xl" href="/register">Start the Adventure <span aria-hidden="true">➜</span></a><a class="btn btn-white btn-xl" href="/rules">How to Play <span aria-hidden="true">↗</span></a></div>
+  <div class="hero-stats"><div><strong>6</strong><span>Original games</span></div><div><strong>600</strong><span>Total points</span></div><div><strong>∞</strong><span>Discovery and fun</span></div></div>
+ </div>
+ <div class="hero-art" aria-label="The colourful game world of Cyber Adventure"><div class="hero-grid"></div>
+  <div class="art-main"><div class="art-circle ring-one"></div><div class="art-circle ring-two"></div><div class="art-core">🛡️</div><span class="art-icon art-icon-a">🔎</span><span class="art-icon art-icon-b">✨</span><span class="art-icon art-icon-c">🔐</span><span class="art-icon art-icon-d">⚡</span></div>
+  <div class="art-note art-note-left"><span>🏅</span><div><b>Mission complete!</b><small>You earned a new badge</small></div></div>
+  <div class="art-note art-note-right"><span>⭐</span><div><b>+100 points</b><small>Climb the leaderboard!</small></div></div>
+ </div>
+</section>
+<section class="container game-section"><div class="section-kicker">EXPLORE THE GAMES</div><div class="section-heading"><div><h2>Which adventure<br><span>will you start?</span></h2><p>Every game teaches a new safety skill. Start with whichever you like!</p></div><div class="section-label">6 GAMES • 6 DIFFERENT WORLDS</div></div>
+<div class="game-grid">
+<?php
+$descs=['ai-or-real'=>'Real photo or AI-generated? Learn how to check where an image comes from.','phishing-detective'=>'Chase down mysterious emails and catch the scammers.','threat-hunter'=>'Find the risks hidden in colourful scenes.','password-hero'=>'Solve password puzzles and power up your shield.','think-before-sharing'=>'Investigate your digital footprint before you share.','cyber-shield'=>'Aim for the top score in the knowledge arena.'];
+$slugNames=['ai-or-real'=>'AI or Real?','phishing-detective'=>'Phishing Detective','threat-hunter'=>'Cyber Threat Hunter','password-hero'=>'Password Hero','think-before-sharing'=>'Think Before You Share','cyber-shield'=>'Cyber Shield'];
+foreach($slugNames as $slug=>$name):$g=theme_game($slug);
+?><a class="feature-card <?=e($g['class'])?>" href="/register"><div class="feature-art"><span class="feature-count">GAME <?=$g['number']?></span><span class="feature-emoji"><?=$g['emoji']?></span><span class="feature-sparkle">✧</span></div><div class="feature-content"><small><?=$g['short']?></small><h3><?=e($name)?></h3><p><?=e($descs[$slug])?></p><span class="feature-action">Explore <span>↗</span></span></div></a><?php endforeach; ?>
+</div></section>
+<section class="container free-tools" aria-labelledby="free-tools-title"><div class="free-tools-head"><div><span class="section-kicker">FREE · NO SIGN-UP NEEDED</span><h2 id="free-tools-title">Safety tools you can <span>use right now</span></h2><p>Your information stays on your device. You never need to type your real password or private data to learn.</p></div><span class="free-badge">100% FREE</span></div><div class="free-tools-grid"><a href="/password-test" class="free-tool-card"><span class="free-tool-icon free-tool-gauge"><?php $gaugeCompact=true; include __DIR__.'/gauge.php'; $gaugeCompact=false; ?></span><div><small>LOCAL ANALYSIS</small><h3>Password Strength Test</h3><p>Type a sample password and watch the needle move from weak to strong; the results never leave your browser.</p><b>Test It Free →</b></div></a><a href="/face-search" class="free-tool-card"><span class="free-tool-icon">🕵️</span><div><small>PRIVACY GUIDE</small><h3>Face Search and Your Digital Footprint</h3><p>Learn what face search services do, their risks and the steps for using them safely.</p><b>Read It Free →</b></div></a></div></section>
+<section class="container steps-section"><div class="steps-panel"><div><span class="section-kicker">EASY TO START</span><h2>Join the adventure <span>in 3 steps!</span></h2></div><div class="step-list"><div><b>01</b><span><strong>Create your character</strong><small>Pick an avatar and choose a username.</small></span></div><div><b>02</b><span><strong>Choose your game</strong><small>Start with any of the six different worlds.</small></span></div><div><b>03</b><span><strong>Collect your points!</strong><small>Earn badges and climb the leaderboard.</small></span></div></div><a href="/register" class="btn btn-white">Join for Free <span>➜</span></a></div></section>

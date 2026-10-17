@@ -1,0 +1,1 @@
+<section class="container single-panel"><div class="celebrate">🛠️</div><h1>Something <em>went wrong.</em></h1><p><?=e($error??'This page is currently unavailable.')?></p><a href="/" class="btn btn-primary">Back to Home ➜</a></section>

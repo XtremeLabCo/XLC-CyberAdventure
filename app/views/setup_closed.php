@@ -1,0 +1,1 @@
+<section class="container single-panel"><div class="celebrate">✅</div><h1>Setup <em>complete.</em></h1><p>An admin account already exists. For security reasons, running setup again is disabled.</p><a href="/admin/login" class="btn btn-primary">Admin Login ➜</a></section>
